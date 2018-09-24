@@ -1,0 +1,20 @@
+//
+// Primo programma.
+// Stampa la stringa Hello sul terminale.
+// ciao ciao
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int anni;
+
+  cout << "Quanti anni hai?2 " << endl;
+
+  cin >> anni;
+
+
+  cout << "Hai " << anni << " anni" << endl;
+  return (0);
+}
