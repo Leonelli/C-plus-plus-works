@@ -1,6 +1,7 @@
 using namespace std;
 
 #include <iostream>
+#define PI 3.14
 
 int areaquadrato(){
   int base,altezza,area;
@@ -36,12 +37,11 @@ int areatriangolo(){
 }
 
 int areacerchio(){
-  const float pi=3.14;
   float area;
   int raggio;
   cout << "dimmi il raggio \n";
   cin >> raggio;
-  area = raggio*raggio*pi;
+  area = raggio*raggio* PI;
   cout << "area = " << area << endl;
   return 0;
 }
