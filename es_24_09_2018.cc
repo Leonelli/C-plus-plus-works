@@ -57,12 +57,28 @@ int scambio(){
   return 0;
 }
 
+int scambioXOR(){
+    int a,b,c;
+    cout << "inserisci 2 numeri: " << endl;
+    cin >> a >>b;
+    a=a^b;
+    cout << a <<" , "<< b << endl;
+    b=a^b;
+    cout << a <<" , "<< b << endl;
+    a=a^b;
+    cout << a <<" , "<< b << endl;
+    cout << "i numeri scambiati sono " << a << " e " << b << endl;
+    return 0;
+}
+
+
 int main(){
   // int areaq = areaquadrato();
   // int areac = areacerchio();
   //int areat= areatrapezio();
   //int areatri=areatriangolo();
-  int scambi = scambio();
+  //int scambi = scambio();
+  int scambiXOR = scambioXOR();
   return 0;
 }
 
