@@ -109,6 +109,29 @@ int IVA(){
 }
 
 
+int tempoEsperimento(){
+  //dato in input il tempo impiegato per fare un certo esperimento
+  //espresso in secondi, minuti ed ore
+  //calcolare il TOTALONE dei secondi
+  int TOTALONE;
+  int h,m,s;
+
+  cout << "inserisci i secondi: ";
+  cin >> s;
+
+  cout << "inserisci i minuti: ";
+  cin >> m;
+
+  cout << "inserisci le ore: ";
+  cin >> h;
+
+  TOTALONE= h*60*60 + m*60 + s;
+  cout << "TOTALONE: " << TOTALONE <<endl;
+
+  return 0;
+}
+
+
 int main(){
   //int max = massimo();
   //int operaore_and = AND();
@@ -116,6 +139,7 @@ int main(){
   //int max3 = MaggioreDi3Elementi();
   //int tempF = temperatura();
   //int colorConsole=changeColor();
-  int iva= IVA();
+  //int iva= IVA();
+  int totaleSecondi = tempoEsperimento();
   return 0;
 }
