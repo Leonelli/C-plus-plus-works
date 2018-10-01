@@ -90,12 +90,32 @@ int temperatura(){
   return 0;
 }
 
+int changeColor(){
+  cout << "\033[1;31mbold red text\033[0m\n";
+  return 0;
+}
+
+int IVA(){
+  //dato in input il prezzo di un dispositivo
+  //calcolare e stampare a video il valore del prezzo
+  //con IVA (IVA al 22%)
+  float prezzo,prezzo_ivato;
+  const float c_iva = 22/100.0;
+  cout << "Inserisci il prezzo: ";
+  cin >> prezzo;
+  prezzo_ivato += (prezzo*c_iva) + prezzo;
+  cout << "il prezzo con l'iva è: " << prezzo_ivato <<endl;
+  return 0;
+}
+
 
 int main(){
   //int max = massimo();
   //int operaore_and = AND();
   //int operaore_or = OR();
   //int max3 = MaggioreDi3Elementi();
-  int tempF = temperatura();
+  //int tempF = temperatura();
+  //int colorConsole=changeColor();
+  int iva= IVA();
   return 0;
 }
