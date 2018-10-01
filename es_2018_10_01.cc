@@ -62,26 +62,40 @@ int OR(){
 int MaggioreDi3Elementi(){
   //dati due interi a , b e c
   //stampare a video 1 se a è il maggiore, 0 altrimenti
-    bool semaforo;
-    int a,b,c;
-    cout << "inserisci un intero: ";
-    cin >> a;
-    cout << "inserisci un intero: ";
-    cin >> b;
-    cout << "inserisci un intero: ";
-    cin >> c;
+  bool semaforo;
+  int a,b,c;
+  cout << "inserisci un intero: ";
+  cin >> a;
+  cout << "inserisci un intero: ";
+  cin >> b;
+  cout << "inserisci un intero: ";
+  cin >> c;
   //NOTA BENE!!
-    semaforo = ((a>b)&&(a>c));
+  semaforo = (a>b)&&(a>c);
   //NOTA BENE!!
-    cout << "a > b e a > c? ";
-    cout << semaforo << endl;
-    return 0;
+  cout << "a > b e a > c? ";
+  cout << semaforo << endl;
+  return 0;
 }
+
+int temperatura(){
+  //dato in input il valore della temperatura
+  //in Gradi F calcolare il corrispondente valore in gradi Celsius
+  //C=(F-32)/1.8
+  float C,F;
+  cout << "Inserisci la temperatura in gradi F: ";
+  cin >> F;
+  C = (F-32)/1.8;
+  cout << "Temperatura in gradi C: "<< C << endl;
+  return 0;
+}
+
 
 int main(){
   //int max = massimo();
   //int operaore_and = AND();
   //int operaore_or = OR();
-  int max3 = MaggioreDi3Elementi();
+  //int max3 = MaggioreDi3Elementi();
+  int tempF = temperatura();
   return 0;
 }
