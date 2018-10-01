@@ -113,6 +113,9 @@ int tempoEsperimento(){
   //dato in input il tempo impiegato per fare un certo esperimento
   //espresso in secondi, minuti ed ore
   //calcolare il TOTALONE dei secondi
+
+  //dato il TOTALONE calcolare secondi, minuti ed ore
+
   int TOTALONE;
   int h,m,s;
 
@@ -127,6 +130,12 @@ int tempoEsperimento(){
 
   TOTALONE= h*60*60 + m*60 + s;
   cout << "TOTALONE: " << TOTALONE <<endl;
+
+  h = TOTALONE/3600;
+  m = (TOTALONE%3600)/60;
+  s = (m%3600)%60;
+
+  cout << "TOTALONE: " << TOTALONE<< " h: "<<h<<" m: "<<m<<" s: "<<s <<endl;
 
   return 0;
 }
