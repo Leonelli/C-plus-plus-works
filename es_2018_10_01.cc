@@ -24,7 +24,7 @@ int AND(){
   //stampare a video tutti i possibili risultati dell'operazione
   //a && b dove a e b sono due variabili booleani
   bool a,b;
-  a=true,b=true;
+  a=true, b=true;
   cout << "a: " << a << " ,b: " << b << " ,a&&b: " <<  (a&&b) <<endl;
 
   a=false,b=true;
@@ -85,7 +85,9 @@ int temperatura(){
   float C,F;
   cout << "Inserisci la temperatura in gradi F: ";
   cin >> F;
-  C = (F-32)/1.8;
+  //C = (F-32)/1.8;
+  C = (F-32);
+  C = (C/1.8); // se uso la virgola al posto del punto c++ ignora tutto ciò che precede e assegna il volore dopo la virgola alla variabile;
   cout << "Temperatura in gradi C: "<< C << endl;
   return 0;
 }
@@ -132,8 +134,8 @@ int tempoEsperimento(){
   cout << "TOTALONE: " << TOTALONE <<endl;
 
   h = TOTALONE/3600;
-  m = (TOTALONE%3600)/60;
-  s = (m%3600)%60;
+  m = (TOTALONE%3600)/6;
+  s = (m%3600);
 
   cout << "TOTALONE: " << TOTALONE<< " h: "<<h<<" m: "<<m<<" s: "<<s <<endl;
 
