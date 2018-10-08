@@ -65,7 +65,7 @@ int eqcompl(){
       cout << "x2 :"<< risult2 << endl;
     }
     else{
-      cout <<"equazione non ha soluzioni" << endl;
+      // dare le soluzioni complesse!!
     }
   }
   else
