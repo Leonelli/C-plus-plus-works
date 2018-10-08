@@ -106,12 +106,56 @@ int crypto(){
   return 0;
 }
 
+
+int divisione(){
+  //acquisire da tastiera due numeri reali
+  //calcolare il quiozientras tra questi due numeri
+  //CONTROLLARE DI NON FARE UNA DIVISIONE PER ZERO
+  float dividendo,divisore;
+  cout << "Dividendo: ";
+  cin >>dividendo;
+  cout << "Divisore: ";
+  cin >>divisore;
+
+  if (divisore==0) {
+    cout<<"divisione per zero impossibile"<<endl;
+  }
+  else{
+    float quoziente=dividendo/divisore;
+    cout << "Il risultato è: " << quoziente << endl;
+  }
+  return 0;
+}
+
+int maxtra2(){
+  //acquisireda tastiera due numeri reali
+  //trovare il massimo tra questi due numeri e stamparlo a Dividendo
+  float a,b;
+  cout << "Inserisci un muero reale: ";
+  cin >>a;
+  cout << "Inserisci un muero reale: ";
+  cin >>b;
+  if (a==b) {
+    cout << "Il due numeri sono uguali" << endl;
+  }
+  else if (a>b) {
+    cout << "Il massimo è a: " << a << endl;
+  }
+  else {
+    cout << "Il massimo è b: " << b << endl;
+  }
+  return 0;
+}
+
+
 int main() {
   //int stampa = stampaChar();
   //int ascii = stampaAscii();
   //int ascii2 = stampaAscii2();
   //int toUpChar=minMaiusc();
   //int tolowChar = maiuscMin();
-  int criptchar = crypto();
+  //int criptchar = crypto();
+  //int div = divisione();
+  int max = maxtra2();
   return 0;
 }
