@@ -97,6 +97,11 @@ int crypto(){
   cout << "Carattere originale: " << c << endl;
   cout << "Carattere criptato: " << criptato << endl;
   cout << "Carattere decripato: " << decripato << endl;
+  if (c == decripato) {
+    cout << "Corretto" << endl;
+  }
+  else
+  cout << "errato" << endl;
 
   return 0;
 }
