@@ -2,5 +2,7 @@
 
 Alcuni esercizi di c++ fatti a lezione (corso base di programmazione):
 
-* Calcolo dell'area
+* Calcolo con e senza librerie
 * Scambio di variabili
+* polinomi
+* lavoro sui caratteri
