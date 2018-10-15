@@ -198,9 +198,33 @@ int numeroPrimo(){
   return 0;
 }
 
+int numeroPrimo2(){
+  //verificare se un numero intero inserito da tastiera è primo
+  int numero;
+  bool stop = false;
+  cout << "inserisci un numero: ";
+  cin >> numero;
+  int i = numero-1;
+  bool primo = true;
+
+  while((stop==false) && (contatore < numero)){
+    if (numero%i==0) {
+      stop = true;
+    }
+    contatore++;
+  }
+  if (stop==false)
+  {cout << "il numero è primo"<<endl;}
+  else
+  cout << "il numero NON è primo"<<endl;
+
+
+  return 0;
+}
+
 int main() {
   //int rad = radice();
   //int eq2 = eq2gr();
-  int stampahello=numeroPrimo();
+  int stampahello=numeroPrimo2();
   return 0;
 }
