@@ -1,6 +1,8 @@
 using namespace std;
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
+#include <limits.h>
 
 int radice(){
   float radice,risultato;
@@ -95,9 +97,89 @@ int tenHello(){
   return 0;
 }
 
+int maxDiDieci(){
+  //usando il while trovare il massimo tra 10 numeri reali inseriti da tastiera
+  float a;
+  cout << "Insceisci un numero: ";
+  cin >> a;
+  int n=9;
+  float max=a;
+
+  while (n>0) {
+    cout << "Insceisci un numero: ";
+    cin >> a;
+    if (a>max) {
+      max=a;
+    }
+    n--;
+  }
+  cout << "il massimo è: " << max<<endl;
+  return 0;
+}
+
+int maxDiQuantiDiciTu(){
+  //usando il while trovare il massimo tra 10 numeri reali inseriti da tastiera
+  int quanti;
+  cout << "Insceisci quante numeri vuoi inserire: ";
+  cin >> quanti;
+
+  float a;
+  cout << "Insceisci un numero: ";
+  cin >> a;
+  int n=9;
+  float max=a;
+
+  while (quanti>1) {
+    cout << "Insceisci un numero: ";
+    cin >> a;
+    if (a>max) {
+      max=a;
+    }
+    quanti--;
+  }
+  cout << "il massimo è: " << max<<endl;
+  return 0;
+}
+
+
+int maxDiN(){
+  //usando il while trovare il massimo tra 10 numeri reali inseriti da tastiera
+  float a;
+  float max = -INT_MAX;
+  char continua='s';
+
+  while (continua == 's') {
+    cout << "Insceisci un numero: ";
+    cin >> a;
+    if (a>max) {
+      max=a;
+    }
+    cout << "Continuare [s|n]: ";
+    cin >> continua;
+  }
+  cout << "il massimo è: " << max<<endl;
+  return 0;
+}
+
+int StampaASCII(){
+  //stampare a video la tabella ASCII dalla A alla z
+  //comprendente carattere e relativo valore della codifica
+  int numero;
+  char carattere = 'A';
+
+  while(carattere <= 'z')
+  {
+    numero = carattere;
+    cout << numero << "\t" << carattere << endl;
+    carattere++;
+  }
+  return 0;
+}
+
+
 int main() {
   //int rad = radice();
   //int eq2 = eq2gr();
-  int stampahello=tenHello();
+  int stampahello=StampaASCII();
   return 0;
 }
