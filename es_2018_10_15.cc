@@ -176,10 +176,31 @@ int StampaASCII(){
   return 0;
 }
 
+int numeroPrimo(){
+  //verificare se un numero intero inserito da tastiera è primo
+  int numero;
+  cout << "inserisci un numero: ";
+  cin >> numero;
+  int i = numero-1;
+  bool primo = true;
+  while(i>=2){
+    if (numero%i==0) {
+      primo = false;
+    }
+    i--;
+  }
+  if (primo)
+  {cout << "il numero è primo"<<endl;}
+  else
+  cout << "il numero NON è primo"<<endl;
+
+
+  return 0;
+}
 
 int main() {
   //int rad = radice();
   //int eq2 = eq2gr();
-  int stampahello=StampaASCII();
+  int stampahello=numeroPrimo();
   return 0;
 }
