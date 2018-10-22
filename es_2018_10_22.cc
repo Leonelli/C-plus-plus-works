@@ -1,8 +1,7 @@
 using namespace std;
 #include <iostream>
 #include <cmath>
-#include <cstdlib>
-#include <limits.h>
+
 
 int maxDiDieciDo(){
   //usando il while trovare il massimo tra 10 numeri reali inseriti da tastiera
@@ -97,8 +96,82 @@ int potenza(){
   return 0;
 }
 
+//ln(1+x) = sommatoria da 1 ad infinito di: (-1)^n+1 * (x^n/n) per -1<x<1
+//usando la formula di taylor approssimare, preso in input da tastiera il valore reale di x
+// calcolare l'approssimazione di ln(1+x) con tutti i controlli necessari
+//sono ammesse le funzioni della librearia cmath
+//per verificare l'approssimazione di ln è ammesso l'uso della calcolrice di sistema
+
+int taylor(){
+  float risultato,x=-2;
+  int limite;
+  //while (x<=-1 || x>=1)
+  while (fabs(x)>=1)
+  {
+    cout<<"inserire il valore di x (-1<x<1): ";
+    cin >> x;
+  }
+  cout<<"Inserire il numero di passi della sommatoria (n>1): ";
+  cin >> limite;
+
+  for (int n = 1; n <= limite; n++) {
+    risultato+= pow(-1,(n+1)) * (pow(x,n)/n);
+  }
+
+  cout << "Il risulatoto di ln(1 + " << x << ") è: "  << risultato << endl;
+  return 0;
+}
+
+//stampare a video i primi n elementi della serie di fibonacci
+//dove n è un intero acquisito da tastiera
+//1 1 2 3 5 8 ...
+int fibonacci(){
+  int limite,risultato_precedente=0;
+  cout << "Inserisci un numero di elementi: ";
+  cin >> limite;
+  int risultato=1;
+  int fibo;
+  cout << risultato << " ";
+
+  for (int i = 0; i < limite; i++) {
+    fibo = risultato + risultato_precedente;
+    risultato_precedente=risultato;
+    risultato=fibo;
+    cout << fibo << " ";
+  }
+  cout << endl;
+
+return 0;
+}
+
+int fibonacci2(){
+  int limite,risultato_precedente=0;
+  int risultato=1;
+  int fibo;
+
+  cout << "Inserisci un numero di elementi: ";
+  cin >> limite;
+
+  if (limite>=1) {
+    cout << "1 ";
+    if (limite>=2) {
+      cout << "1 ";
+      if (limite>=3) {
+        for (int i = 2; i < limite; i++) {
+          fibo = risultato + risultato_precedente;
+          risultato_precedente=risultato;
+          risultato=fibo;
+          cout << fibo << " ";
+        }
+      }
+    }
+  }
+  cout << endl;
+return 0;
+}
+
 
 int main() {
-  int max = potenza();
+  int max = fibonacci2();
   return 0;
 }
