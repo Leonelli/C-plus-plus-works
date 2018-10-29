@@ -46,7 +46,7 @@ int main() {
   cout << "Inserire un reale: ";
   cin >> n2;
   max = massimo(n1,n2);
-  cout << "Il massimo è: " <<max <<endl;
+  cout << "Il massimo è: " <<max <<endl; 
   return 0;
 }
 
