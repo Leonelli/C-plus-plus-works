@@ -10,14 +10,14 @@ int asterisco(int numero);
 int asteriscoCapo(int numero);
 int asteriscoDiagonale(int numero);
 int asteriscoDiagonaleContraria(int numero);
-
+int massimo(int,int);
 int main() {
   /*int limite;
   cout << "Inserisci un numero di elementi: ";
   cin >> limite;
   fibonacci2(limite);*/
   //chidere se si vuole stampare asterishi in orizzonatale, verticale, obliquo destro o sinistro e li stampa a video
-  int scelta;
+  /*int scelta;
   int numero;
   cout << "Insceisci un numero intero di asterischi da stampare: ";
   cin >> numero;
@@ -37,9 +37,16 @@ int main() {
     case 4: asteriscoDiagonaleContraria(numero);
       break;
     default:
-      cout<<"Non hai insetito una scelta corretta";
-      break;
-  }
+      cout<<"Non hai insetito una scelta corretta" << endl;
+  }*/
+
+  int n1,n2,max;
+  cout << "Inserire un reale: ";
+  cin >> n1;
+  cout << "Inserire un reale: ";
+  cin >> n2;
+  max = massimo(n1,n2);
+  cout << "Il massimo è: " <<max <<endl;
   return 0;
 }
 
@@ -67,6 +74,7 @@ int main() {
     }
   return (0);
 }
+
 
 //Stampa n * a video e torna a capo
 // n numero intero acquisto da tastiera
@@ -109,4 +117,19 @@ int asteriscoDiagonaleContraria(int numero){
     cout << "* "<< endl;
   }
   return 0;
+}
+
+//acquisire da tastiera due numeri interi,
+//dichiara e definisce una funzione chiamata
+//massimo che prende in input due numeri e
+//RESTITUISCE il massimo tra questi due
+int massimo(int n1, int n2){
+  int max=0;
+  if (n1>n2) {
+    max=n1;
+  }
+  else{
+    max=n2;
+  }
+  return max;
 }

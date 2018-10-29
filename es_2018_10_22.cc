@@ -94,7 +94,8 @@ int potenza(){
   }
   cout << m << "^" << n << " = " << risultato << endl;
   return 0;
-}
+}      break;
+
 
 //ln(1+x) = sommatoria da 1 ad infinito di: (-1)^n+1 * (x^n/n) per -1<x<1
 //usando la formula di taylor approssimare, preso in input da tastiera il valore reale di x
