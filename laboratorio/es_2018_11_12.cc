@@ -131,8 +131,15 @@ void rgb (int* r,int* g,int* b,long& dec){
 
 int potenza(int base, int esponente){
 int ris=1;
-for (int i = 1; i <= esponente; i++) {
-  ris*=base;
+if(potenza < 1)
+{//caso base
+ris = 1}
+else
+{
+  //passo ricorsivo
+  ris = base * potenza(n,m-1)
+}
+return ris;
 }
 return ris;
 }
