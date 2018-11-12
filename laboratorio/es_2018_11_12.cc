@@ -12,7 +12,8 @@ float radq_punt(float,bool*);
 
 void sfera(float,float&,float&);
 void sfera_punt(float,float*,float*); //per casa!
-
+void rgb (int*,int*,int*,long&);
+int potenza(int, int);
 
 int main() {
   /*float n,ris;
@@ -40,7 +41,7 @@ int main() {
   else
     cout << "raggio negativo." << endl;*/
 
-    float raggio,sup,vol;
+    /*float raggio,sup,vol;
     cout << "inserire raggio sfera: ";
     cin >> raggio;
     if (raggio>0) {
@@ -51,7 +52,20 @@ int main() {
     }
     else
       cout << "raggio negativo." << endl;
+*/
 
+  /*int r,g,b;
+  long dec;
+  cout << "r,g,b: ";
+  cin >> r >> g >> b;
+  rgb(&r,&g,&b,dec);
+  cout << "dec: " << dec <<endl;
+  return 0;*/
+
+  int i,j;
+  cout << "Insceisci base ed esponente: ";
+  cin >> i >> j;
+  cout << i << " ^ " << j << " = " << potenza(i,j) << endl;
   return 0;
 }
 
@@ -100,12 +114,29 @@ void sfera(float r,float &superficie,float &volume)
   superficie= 4*M_PI*pow(r,2);
   volume= (4*M_PI*pow(r,3))/3;
 }
-
+;
 void sfera_punt(float r,float *superficie,float *volume)
 {
   *superficie= 4*M_PI*pow(r,2);
   *volume= (4*M_PI*pow(r,3))/3;
 }
+
+
+void rgb (int* r,int* g,int* b,long& dec){
+  *r %= 256;
+  *g %= 256;
+  *b %= 256;
+  dec = (*r * pow(2,16)) + (*g * pow(2,8)) + *b;
+}
+
+int potenza(int base, int esponente){
+int ris=1;
+for (int i = 1; i <= esponente; i++) {
+  ris*=base;
+}
+return ris;
+}
+
 
 
 //implementare una funzione che preso ui numero, solo se positivo faccia la radice
