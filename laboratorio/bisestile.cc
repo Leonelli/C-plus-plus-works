@@ -49,7 +49,7 @@ int bisestile(int anno){
   if (anno > anno_attuale) {
     res = 0;
   }
-  else if(anno%4 == 0 && anno%100==0){
+  else if(anno%4 == 0 || anno%100==0){
     res = bisestile(anno+1) + 1;
   }
   else{
