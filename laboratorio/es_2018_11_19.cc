@@ -116,11 +116,12 @@ void stampa(char a,char b){
 
 
 int contaCifre(long n){ //RIFARE!
-  /*if (n>=10) {
-    res += contaCifre(n/10);
+  int res;
+  if (n<10) {
+    res=1;
   }
   else{
-    res+=1;
+    res = contaCifre(n/10)+1;
   }
-  return res;*/
+  return res;
 }
