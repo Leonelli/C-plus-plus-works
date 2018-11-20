@@ -1,0 +1,67 @@
+#include <iostream.h>
+
+float ** read_matrix (int & d1,int & d2)
+{
+  int i,j;
+
+  float ** res;
+  cout << "prima dimensione: ";
+  cin >> d1;
+  cout << "seconda dimensione: ";
+  cin >> d2;
+  res = new (float *)[d1];
+  for (i=0;i<d1;i++) {
+    res[i] = new float[d2];
+    for (j=0;j<d2;j++) {
+      cout << "[" << i << "," << j << "] : ";
+      cin >> res[i][j];
+    }
+  }
+  return res;
+}
+
+float ** product  (float ** a,float ** b,int d1,int d2,int d3)
+{
+    int i, j, k;
+    float ** res;
+    res = new (float *)[d1];
+
+    for (i=0; i < d1 ; i++){
+        res[i] = new float[d3];
+        for (j=0; j < d3 ; j++) {
+           res[i][j]=0;
+           for (k=0; k < d2; k++)
+       	      res[i][j] += a[i][k]*b[k][j];
+	}
+    }
+    return res;
+}
+
+void print_matrix (float **a,int d1,int d3)
+{
+  int i,j;
+  
+  cout << endl;
+  for (i=0;i<d1;i++){
+    for (j=0;j<d3;j++)
+      cout << a[i][j] << " ";
+    cout << endl;
+  }
+  cout << endl;
+}
+
+void main() 
+{
+  int d1a,d2a,d1b,d2b;
+  float ** A;
+  float ** B;
+  float ** C;
+  
+  A = read_matrix(d1a,d2a);
+  B = read_matrix(d1b,d2b);
+  if (d2a==d1b) 
+    C = product (A,B,d1a,d2a,d2b);
+  print_matrix (C,d1a,d2b);
+}
+
+

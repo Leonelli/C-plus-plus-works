@@ -1,0 +1,41 @@
+
+array_rec1.cc,110
+int depth 4,43
+void printspaces(5,58
+double rec_array_sum(13,135
+double array_sum 35,521
+int main 44,726
+
+array_rec1_nocomment.cc,69
+double rec_array_sum(5,43
+double array_sum 19,273
+int main 26,391
+
+array_rec2.cc,110
+int depth 4,42
+void printspaces(6,58
+double rec_array_sum(13,134
+double array_sum 35,520
+int main 44,725
+
+array_rec2_nocomment.cc,69
+double rec_array_sum(5,43
+double array_sum 19,273
+int main 26,391
+
+array_rec3.cc,110
+int depth 4,42
+void printspaces(6,58
+double rec_array_sum(13,134
+double array_sum 38,580
+int main 47,785
+
+array_rec3_nocomment.cc,69
+double rec_array_sum(5,43
+double array_sum 22,332
+int main 29,450
+
+array_rec_nocomment3.cc,69
+double rec_array_sum(5,43
+double array_sum 22,332
+int main 29,450

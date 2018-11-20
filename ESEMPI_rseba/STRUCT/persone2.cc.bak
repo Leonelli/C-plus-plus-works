@@ -1,0 +1,184 @@
+using namespace std;
+#include <iostream>
+#include <cstring>
+
+const int NmaxPers = 10;
+const int NmaxNome = 20;
+const int NmaxCognome = 30;
+
+struct address {
+   char via[NmaxNome];
+   int civico;
+   char comune[NmaxNome];
+   int cap;
+   char prov[3];
+};
+
+struct persona {
+   char nome[NmaxNome];
+   char cognome[NmaxCognome];
+   address indirizzo;
+};
+
+
+void leggi_indirizzo (address &a);
+void stampa_indirizzo (address a);
+void leggi_nome (char *s);
+void stampa_nome (char *s);
+void leggi_cognome (char *s);
+void stampa_cognome (char *s);
+void leggi_persona(persona *p[], int &n);
+void stampa_persona(persona & p);
+void stampa_persone(persona *p[], int n);
+void swap (persona &p1, persona &p2);
+void ordina_per_cognome(persona *p[], int n);
+int cerca_per_cognome(char * cognome,persona *p[],int inizio,int fine);
+
+
+int main ()
+{
+   int npers = 0;
+   int pos;
+   char cognome[NmaxCognome];
+   persona * comune[NmaxPers] = {}; //array di puntatori
+   char s[2];
+
+   do {    
+      cout << endl;
+      cout << " i: inserisci\n";
+      cout << " s: stampa\n";
+      cout << " o: ordina per cognome\n";
+      cout << " c: cerca per cognome\n";
+      cout << " e: esci\n";
+      cout << "\nInserisci Scelta: ";
+      cin >> s;
+
+      switch (s[0]) {
+         case 'i': leggi_persona(comune,npers); break;
+         case 's': stampa_persone(comune,npers); break;
+         case 'o': ordina_per_cognome(comune,npers); break;
+         case 'c': leggi_cognome(cognome);
+                   pos=cerca_per_cognome(cognome,comune,0,npers-1); 
+                   if (pos==-1)
+                     cout << "Non trovato\n";
+                   else {
+                     cout << "Trovato in posizione " << pos+1 << endl;
+                     stampa_persona(*comune[pos]);
+                   }
+                   break;
+         case 'e': break;
+         default: cout << "scelta non capita\n";
+         }
+      }
+   while ((s[0]=='i' || s[0]=='s' || s[0]=='o' || s[0]=='c'));
+}
+
+
+//  FUNZIONI 
+
+void leggi_indirizzo (address &a)
+{
+   cout << "\n Inserisci via: ";
+   cin >> a.via;
+   cout << "\n Inserisci civico: ";
+   cin >> a.civico;
+   cout << "\n Inserisci comune: ";
+   cin >> a.comune;
+   cout << "\n Inserisci cap: ";
+   cin >> a.cap;
+   cout << "\n Inserisci prov: ";
+   cin >> a.prov;
+}
+
+void stampa_indirizzo (address a)
+{
+   cout << endl;
+   cout << "Via: " << a.via << endl;
+   cout << "Civico: " << a.civico << endl;
+   cout << "Comune: " << a.comune << endl;
+   cout << "cap: " << a.cap << endl;
+   cout << "prov: " << a.prov << endl;
+}
+
+void leggi_nome (char *s)
+{
+   cout << "\n Inserisci nome: ";
+   cin >> s;
+}
+
+void stampa_nome (char *s)
+{
+   cout << "nome: " << s << endl;
+}
+
+void leggi_cognome (char *s)
+{
+   cout << "\n Inserisci cognome: ";
+   cin >> s;
+}
+
+void stampa_cognome (char *s)
+{
+   cout << "cognome: " << s << endl;
+}
+
+void leggi_persona(persona *p[], int &n) 
+{
+   p[n] = new persona;
+   leggi_indirizzo(p[n]->indirizzo);
+   leggi_nome(p[n]->nome);
+   leggi_cognome(p[n]->cognome);
+   n++;
+}
+
+void stampa_persona(persona & p) 
+{
+   stampa_indirizzo(p.indirizzo);
+   stampa_nome(p.nome);
+   stampa_cognome(p.cognome);
+}
+
+void stampa_persone(persona *p[], int n) 
+{
+  int i;
+  for   (i=0; i < n; i++) {
+     cout << "\n\nDati della persona num. " << i+1 << endl;
+     stampa_persona(*p[i]);
+  }
+}
+
+void swap (persona *&p1, persona *&p2)
+{
+   persona * temp;
+   temp=p1; p1=p2; p2=temp;
+}
+
+//procedura di bubble sort, per cognome
+void ordina_per_cognome(persona *p[], int n) 
+{
+   int i, j;
+
+   for (i=n-1; i > 0; i--)
+      for (j=0; j< i; j++)
+         if (strcmp(p[j]->cognome,p[j+1]->cognome)> 0)
+            swap(p[j],p[j+1]);   
+}
+
+//procedura di ricerca dicotomica, per cognome
+int cerca_per_cognome(char * cognome,persona *p[],int inizio,int fine)
+{
+  int pivot,cmp;
+  if (inizio > fine) 
+    return -1;
+  pivot = (inizio+fine)/2;
+  cmp =  strcmp(p[pivot]->cognome,cognome);
+  if (cmp==0)  
+    return pivot;
+  else if (cmp>0)
+    return cerca_per_cognome(cognome,p,inizio,pivot-1);
+  else
+    return cerca_per_cognome(cognome,p,pivot+1,fine);
+}
+
+   
+

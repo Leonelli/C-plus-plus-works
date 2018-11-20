@@ -1,0 +1,61 @@
+
+queue.cc,314
+struct node 5,61
+int val;node::val6,75
+node * next;node::next7,84
+struct queue 10,101
+  node * tail;queue::tail12,117
+  node * head;queue::head13,132
+static queue Q;16,151
+static bool emptyp 18,168
+void init(23,223
+retval enqueue(28,257
+retval first(49,633
+retval dequeue(61,768
+void print(76,962
+
+queue_main.cc,15
+int main 5,61
+
+reverse_main.cc,15
+int main 5,61
+
+stack.cc,234
+struct nodo{nodo6,62
+  int val;nodo::val7,75
+  nodo *next;nodo::next8,86
+static nodo *stack;stack11,104
+static bool emptyp 13,125
+void init(17,178
+retval top 21,211
+retval push 34,453
+retval pop 48,659
+void print 61,900
+
+stack_main.cc,15
+int main 5,61
+
+struct_queue.cc,129
+static bool emptyp 7,70
+void init(12,140
+retval enqueue(19,293
+retval first(38,570
+retval dequeue(50,722
+void print(65,922
+
+struct_queue_main.cc,15
+int main 6,69
+
+struct_reverse_main.cc,15
+int main 5,68
+
+struct_stack.cc,120
+static bool emptyp 7,70
+void init(11,134
+retval top 15,172
+retval push 28,423
+retval pop 42,630
+void print 55,878
+
+struct_stack_main.cc,15
+int main 5,68

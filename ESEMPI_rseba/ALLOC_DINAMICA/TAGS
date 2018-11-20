@@ -1,0 +1,59 @@
+
+matrix2.cc,92
+void nomemory(7,83
+float ** alloc_matrix 15,200
+void fill_matrix(28,392
+int main(35,534
+
+matrix3.cc,92
+void nomemory(7,83
+float ** alloc_matrix 15,200
+void fill_matrix(27,379
+int main(34,521
+
+matrix4.cc,119
+void nomemory(7,83
+float ** alloc_matrix 15,200
+void fill_matrix(27,379
+void delete_matrix 34,521
+int main(44,656
+
+matrix.cc,169
+float ** read_matrix 4,45
+void print_matrix 24,426
+float ** sum 37,632
+float ** diff 52,916
+float ** product 67,1201
+float ** symmetric 84,1571
+int main(102,1836
+
+matrix_dim.cc,33
+int istrue(4,43
+int main 10,80
+
+matrix_din.cc,111
+void printarray 6,64
+int istrue(12,191
+int ** read_matrix 17,227
+void print_matrix 37,580
+int main 50,771
+
+matrix_pun.cc,70
+float ** read_matrix 4,45
+void print_matrix 23,450
+int main(38,674
+
+matrix_sta_punt.cc,58
+void printarray 6,64
+int istrue(12,191
+int main 18,228
+
+matrix_typedef.cc,194
+typedef float ** matrix;4,45
+matrix  read_matrix 6,73
+void print_matrix 26,452
+matrix  sum 39,656
+matrix  diff 54,936
+matrix  product 69,1217
+matrix  symmetric 86,1583
+int main(104,1845

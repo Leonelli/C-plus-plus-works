@@ -1,0 +1,99 @@
+using namespace std;
+#include <iostream>
+#include <iomanip>
+
+
+int depth = 0;
+
+char * printspaces(int n) 
+{ 
+  int i;
+  char * s;
+  s = new char[3*n+1];
+  for (i=0;i<3*n;i++) 
+    s[i] = ' ';
+  s[3*n] = '\0';
+  return s;
+}
+
+void swap (int & a, int & b) 
+{
+  int c = a;
+  a = b;
+  b = c;
+}
+
+void printarray(int v[],int min,int max,char * spaces) 
+{
+  int i;
+  cout << spaces << "[";
+  for (i=min;i<=max;i++) {
+    cout << setw(2) << v[i] << " ";
+  }
+  cout << "]\n";
+}
+
+
+void quicksort1 (int v[],int primo,int ultimo) 
+{
+depth++;
+cout << printspaces(depth) << "> ";
+printarray(v,primo,ultimo,"");
+
+  if (primo<ultimo) {
+    int p=primo;
+    int u=ultimo+1;
+    int pivot=v[primo];
+
+    do {
+      while (v[++p]<pivot); //incremento p finche' v[p]=pivot
+cout << "  v[" << p << "] = " << v[p] << endl;
+      while (v[--u]>pivot); //decremento u finche' v[u]=pivot
+cout << "  v[" << u << "] = " << v[u] << endl;
+      if (p<u) 
+	swap(v[p],v[u]);
+cout << printspaces(depth) << "  ";
+printarray(v,primo,ultimo,"");
+    } while (p<u);
+    swap(v[primo],v[u]);
+
+cout << printspaces(depth) << "  pivot = " << pivot << endl;
+cout << printspaces(depth) << "= ";
+printarray(v,primo,ultimo,"");
+
+    quicksort1 (v,primo,u-1);
+    quicksort1 (v,u+1,ultimo);
+  }
+
+cout << printspaces(depth) << "< ";
+printarray(v,primo,ultimo,"");
+depth--;
+}
+
+void quicksort (int v[],int n) 
+{
+  quicksort1 (v,0,n-1);
+}
+
+  
+
+int main () 
+{
+  const int dim = 8;
+//   const int dim = 16;
+  int myarray[dim] = 
+    {
+      7,6,5,4,3,2,1
+    };
+//       {10,3,9,1,5,17,6,41,20,37,2,8,23,0,11,19};
+//      {41,3,9,1,5,17,6,20,37,2,8,23,10,0,11,19};
+//      {11,12,13,14,15,16,1,2,3,4,5,6,7,8,9,10};
+  
+  printarray(myarray,0,dim-1,"");
+  cout << endl;
+  quicksort(myarray,dim);
+  printarray(myarray,0,dim-1,"");
+}
+
+  
+  

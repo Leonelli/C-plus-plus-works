@@ -1,0 +1,20 @@
+using namespace std;
+#include <iostream>
+#include <cstring>
+ 
+int main () 
+{
+  int *p;
+  char sa[200];
+  char sb[200];
+  char *sc;
+  
+  cin >> sa >> sb;
+  sc = new char[strlen(sa)+strlen(sb)+1];
+  strcpy(sc,sa);
+  strcat(sc,sb);
+  cout << sc << endl;
+  delete [] sc;
+//    cout << sc << endl;
+}
+

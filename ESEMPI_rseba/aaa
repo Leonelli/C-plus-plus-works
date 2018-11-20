@@ -1,0 +1,125 @@
+~/DIDATTICA/prog1_2010/ESEMPI/AGENDA ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering AGENDA                                        *
+********************************************************
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/AGENDA_DOPPIA ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering AGENDA_DOPPIA                                        *
+********************************************************
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/ALLOC_DINAMICA ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering ALLOC_DINAMICA                                        *
+********************************************************
+compiling aaaaa.cc
+compiling aa.cc
+compiling err_restituzione_array2.cc
+compiling err_restituzione_array.cc
+compiling EX0612.cc
+compiling EX0612_err.cc
+compiling matrix2.cc
+compiling matrix3.cc
+compiling matrix4.cc
+compiling matrix.cc
+compiling matrix_pun.cc
+compiling matrix_typedef.cc
+compiling new1.cc
+compiling new2.cc
+compiling new3.cc
+compiling newdelete1.cc
+compiling newdelete2.cc
+compiling nonallocata_err.cc
+compiling PR0627.cc
+compiling prova2.cc
+compiling prova3_bis.cc
+compiling prova3.cc
+compiling prova3_err.cc
+compiling prova3_quater.cc
+compiling prova3_tris.cc
+compiling prova4.cc
+compiling prova5.cc
+compiling prova.cc
+compiling restituzione_array.cc
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/ARRAY ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering ARRAY                                        *
+********************************************************
+compiling concatena_array.cc
+compiling errata4.cc
+compiling EX0501.cc
+compiling EX0502.cc
+compiling EX0502_errata2.cc
+compiling EX0502_errata3.cc
+compiling EX0502_errata.cc
+compiling EX0502_mia.cc
+compiling EX0503_bis.cc
+compiling EX0503.cc
+compiling EX0503_errato.cc
+compiling EX0503_err.cc
+compiling EX0504.cc
+compiling EX0505.cc
+compiling EX0506.cc
+compiling EX0506_const.cc
+compiling EX0507.cc
+compiling EX0507_check.cc
+compiling somma_array.cc
+compiling template.cc
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/ARRAY_PUNT ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering ARRAY_PUNT                                        *
+********************************************************
+compiling aa.cc
+compiling address_2.cc
+compiling address_3.cc
+compiling aritmetica_punt.cc
+compiling array_punt.cc
+compiling array_punt_nocomment.cc
+compiling associativita.cc
+compiling concatena_array1.cc
+compiling concatena_array2.cc
+compiling concatena_array.cc
+compiling err_restituzione_array1.cc
+compiling err_restituzione_array2.cc
+compiling err_restituzione_array.cc
+compiling EX0609.cc
+compiling EX0610.cc
+compiling EX0611_bug.cc
+compiling EX0611.cc
+compiling prova.cc
+compiling punt_vett1.cc
+compiling punt_vett.cc
+compiling ruota_maxritardo.cc
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/CALC_RPN ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering CALC_RPN                                        *
+********************************************************
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/CALC_STD ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering CALC_STD                                        *
+********************************************************
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/CODA_PRIORITA ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering CODA_PRIORITA                                        *
+********************************************************
+~/DIDATTICA/prog1_2010/ESEMPI
+~/DIDATTICA/prog1_2010/ESEMPI/ESEMPI_BASE ~/DIDATTICA/prog1_2010/ESEMPI
+********************************************************
+**** entering ESEMPI_BASE                                        *
+********************************************************
+compiling assegnazione.cc
+compiling assegnazione_errori.cc
+compiling booleano_bool.cc
+compiling booleano.cc
+compiling char.cc
+compiling ciao2.cc
+compiling ciao3.cc
+compiling ciao.cc
+compiling conversione2.cc
+compiling conversione3.cc
+compiling conversione4.cc

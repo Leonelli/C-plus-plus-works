@@ -1,0 +1,41 @@
+
+tree1.cc,112
+void init(6,67
+tree  insert(11,108
+tree  cerca 24,385
+void print_ordered(35,628
+void print_indented(43,776
+
+tree1_main.cc,15
+int main(6,62
+
+tree.cc,167
+static void print_spaces(7,90
+void init(15,207
+bool nullp(19,246
+retval insert(26,449
+tree  cerca 42,756
+void print_ordered(55,1030
+void print_indented(63,1187
+
+tree_main.cc,15
+int main(7,62
+
+tree1.h,125
+#define TREE_H 2,16
+typedef node * tree;6,47
+struct node 8,69
+  char item;10,86
+  tree left;11,101
+  tree right;12,116
+
+tree.h,204
+#define TREE_H 2,16
+enum retval 4,33
+enum retval {FAIL,FAIL4,33
+enum retval {FAIL,OK}OK4,33
+typedef node * tree;8,71
+struct node 10,93
+  char item;12,110
+  tree left;13,125
+  tree right;14,140

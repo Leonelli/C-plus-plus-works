@@ -1,0 +1,26 @@
+
+tree.cc,194
+static void print_spaces(7,90
+static bool emptyp(12,184
+void init(18,269
+bool nullp(24,374
+retval insert(28,430
+tree  cerca 48,926
+void print_ordered(61,1221
+void print_indented(69,1379
+
+tree_main.cc,15
+int main(7,62
+
+tree.h,286
+#define ALBERO_H 2,18
+enum retval 11,170
+enum retval {FAIL,FAIL11,170
+enum retval {FAIL,OK}OK11,170
+typedef node * albero;15,208
+typedef char contenuto;19,237
+struct node 21,262
+  contenuto item;23,279
+  albero left;24,299
+  albero right;25,316
+static int confronta(35,537

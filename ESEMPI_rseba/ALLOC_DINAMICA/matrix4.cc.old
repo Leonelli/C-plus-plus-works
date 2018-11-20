@@ -1,0 +1,49 @@
+using namespace std;
+#include <iostream>
+#include <new>
+#include <cstdlib>
+
+
+void nomemory() 
+{
+  cerr << "Memoria esaurita: " 
+       << "impossibile allocare " << endl;
+  exit(0);
+}
+
+float ** alloc_matrix (int  d1,int  d2)
+{
+  int i,j;
+
+  float ** res;
+  set_new_handler(nomemory);
+  res = new float *[d1];
+  for (i=0;i<d1;i++) {
+    res[i] = new float[d2];
+  }
+  return res;
+}
+
+void delete_matrix (float ** A,int d1,int d2) 
+{
+  int i;
+  for (i=0;i<d1;i++) {
+     delete [] A[i];
+  }
+  delete [] A;
+}
+
+int main() 
+{
+  int i,d1,d2;
+  float ** A;
+  
+  set_new_handler(nomemory);
+  for (i=0;i<1000;i++) {
+    A = alloc_matrix(1000,10000);
+    cout << "allocata la " << i << "-esima matrice\n";
+    delete_matrix(A,1000,10000);
+  }
+}
+
+

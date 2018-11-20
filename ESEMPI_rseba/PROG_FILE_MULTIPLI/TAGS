@@ -1,0 +1,32 @@
+
+matrix.cc,145
+matrix  read_matrix 5,66
+void print_matrix 25,445
+matrix  sum 38,649
+matrix  diff 53,929
+matrix  product 68,1210
+matrix  symmetric 85,1576
+
+matrix.h,78
+#define MATRIX_H2,18
+using namespace std;4,38
+typedef float ** matrix;7,83
+
+matrix_main.cc,15
+int main(7,70
+
+matrix_typedef.cc,194
+typedef float ** matrix;4,45
+matrix  read_matrix 6,73
+void print_matrix 26,452
+matrix  sum 39,656
+matrix  diff 54,936
+matrix  product 69,1217
+matrix  symmetric 86,1583
+int main(104,1845
+
+matrix.o~,0
+
+matrix.o,0
+
+matrix,0

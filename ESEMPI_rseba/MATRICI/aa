@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in 1.cc 2.cc 3.cc 4.cc 5.cc  ;
+do
+  mv EX0517_$i def_mat$i;
+done

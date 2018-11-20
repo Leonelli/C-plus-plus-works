@@ -1,0 +1,12 @@
+ESERCIZI PROPOSTI
+
+- implementare la linear search in modo ricorsivo
+
+- implementare una procedura di estrazione di un elemento da un array ordinato
+
+- implementare una procedura di inserimento di un elemento in un array ordinato
+
+- implementare il seguente algoritmo di sorting ricorsivo (mergesort)
+  1 dividere l'array V in due parti uguali (+-1) V1 e V2
+  2 invocare ricorsivamente mergesort sui due array
+  3 fare il merge dei due array

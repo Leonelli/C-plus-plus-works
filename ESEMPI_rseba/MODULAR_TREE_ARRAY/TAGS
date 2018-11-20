@@ -1,0 +1,27 @@
+
+tree.cc,298
+static tree left(9,94
+static tree right(16,209
+static char & elem(23,326
+static int emptyp(27,395
+bool nullp(31,464
+static tree mknull(35,522
+static void print_spaces(41,596
+void init(50,715
+retval insert(57,842
+void print_ordered(75,1137
+void print_indented(83,1295
+tree cerca 97,1533
+
+tree_main.cc,15
+int main(7,62
+
+tree.h,179
+#define TREE_H 2,16
+enum retval 4,33
+enum retval {FAIL,FAIL4,33
+enum retval {FAIL,OK}OK4,33
+const int MAXSIZE 6,57
+struct tree 8,83
+  char * array;9,97
+  int pos;10,113

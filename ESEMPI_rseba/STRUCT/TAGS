@@ -1,0 +1,110 @@
+
+persone2.cc,1030
+const int NmaxPers 5,65
+const int NmaxNome 6,91
+const int NmaxCognome 7,117
+struct address 9,148
+   char via[address::via10,166
+   int civico;address::civico11,190
+   char comune[address::comune12,206
+   int cap;address::cap13,233
+   char prov[address::prov14,246
+struct persona 17,270
+   char nome[persona::nome18,288
+   char cognome[persona::cognome19,313
+   address indirizzo;persona::indirizzo20,344
+struct gruppo 24,405
+  int npers;gruppo::npers25,422
+  persona * persone gruppo::persone26,436
+int main 54,1201
+void leggi_indirizzo 94,2281
+void stampa_indirizzo 108,2598
+void leggi_nome 118,2871
+void stampa_nome 124,2956
+void leggi_cognome 129,3034
+void stampa_cognome 135,3125
+void leggi_persona(141,3211
+void stampa_persona(148,3341
+void inserisci_persona(155,3481
+void leggieinserisci_persona(164,3687
+void inizializza_gruppo(171,3803
+void stampa_gruppo(176,3862
+void swap 185,4059
+void ordina_per_cognome(192,4197
+int cerca_per_cognome(204,4490
+int cerca_per_cognome1(209,4610
+
+persone3.cc,1231
+const int NmaxPers 5,65
+const int NmaxNome 6,91
+const int NmaxCognome 7,117
+struct address 9,148
+   char via[address::via10,166
+   int civico;address::civico11,190
+   char comune[address::comune12,206
+   int cap;address::cap13,233
+   char prov[address::prov14,246
+struct persona 17,270
+   char nome[persona::nome18,288
+   char cognome[persona::cognome19,313
+   address indirizzo;persona::indirizzo20,344
+struct gruppo 23,373
+  int npers;gruppo::npers24,390
+  persona * nomi gruppo::nomi25,404
+  persona * cognomi gruppo::cognomi26,434
+int main 55,1392
+void leggi_indirizzo 110,3037
+void stampa_indirizzo 124,3354
+void leggi_nome 134,3621
+void stampa_nome 140,3706
+void leggi_cognome 145,3778
+void stampa_cognome 151,3869
+void leggi_persona(156,3947
+void stampa_persona(163,4077
+void inizializza_gruppo 170,4211
+void inserisci_persona_gruppo 175,4271
+void stampa_gruppo_per_nome 187,4544
+void stampa_gruppo_per_cognome 192,4629
+void stampa_persone(198,4723
+void swap 206,4847
+void ordina_per_nome(213,4982
+void ordina_per_cognome(225,5234
+persona * cerca_per_nome(235,5452
+persona * cerca_per_nome1(241,5606
+persona * cerca_per_cognome(260,6041
+persona * cerca_per_cognome1(268,6217
+
+persone.cc,1028
+const int NmaxPers 5,65
+const int NmaxNome 6,92
+const int NmaxCognome 7,118
+struct address 9,149
+   char via[address::via10,167
+   int civico;address::civico11,191
+   char comune[address::comune12,207
+   int cap;address::cap13,234
+   char prov[address::prov14,247
+struct persona 17,271
+   char nome[persona::nome18,289
+   char cognome[persona::cognome19,314
+   address indirizzo;persona::indirizzo20,345
+struct gruppo 23,374
+  int npers;gruppo::npers24,391
+  persona persone gruppo::persone25,405
+int main 52,1170
+void leggi_indirizzo 91,2233
+void stampa_indirizzo 105,2550
+void leggi_nome 115,2823
+void stampa_nome 121,2908
+void leggi_cognome 126,2986
+void stampa_cognome 132,3077
+void leggi_persona(139,3210
+void stampa_persona(146,3340
+void swap 153,3480
+void inizializza_gruppo(161,3608
+void inserisci_persona(166,3667
+void leggieinserisci_persona(173,3795
+void stampa_gruppo(180,3911
+void ordina_per_cognome(189,4142
+int cerca_per_cognome(200,4435
+int cerca_per_cognome1(205,4555

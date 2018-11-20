@@ -1,0 +1,12 @@
+g++ visibilita.cc
+g++ divisibilita.cc
+g++ divisibilita2.cc
+g++ conversione.cc
+g++ conversione2.cc
+g++ eq_1grado.cc
+g++ dangling_else.cc
+g++ dangling_else2.cc
+g++ minimo.cc
+g++ minimo2.cc
+g++ simple_calc.cc
+g++ simple_calc2.cc

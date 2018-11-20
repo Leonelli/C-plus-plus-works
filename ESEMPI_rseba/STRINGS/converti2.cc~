@@ -1,0 +1,26 @@
+using namespace std;
+#include <iostream>
+#include <cstdlib>
+
+int main () 
+{
+  const float euro = 1936.27;
+
+  int value;
+  float liravalue;
+  
+  cin >> value;
+  while (!cin.eof()) {
+    if (!cin.fail()) {
+      liravalue = euro*value;
+      cout << value << " " << liravalue << endl;
+    }
+    else { // (cin.fail() ma non cin.eof(
+      char s [100];
+      cin.clear();
+      cin >> s;
+    }
+    cin >> value;
+  }
+  return 0;
+}

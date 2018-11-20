@@ -1,0 +1,56 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% puntatori e riferimenti
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+< sezione 4 slides >
+(pag 75, section 5 slides vecchie)
+
+** references 
+nota: riferimento a espressione senza l-value o a tipo 
+diverso non piu' ammesso dallo standard C++
+
+reference.cc
+
+** operatore address-of 
+
+address_1.cc valori di interi
+
+
+** references e address-off
+
+EX0603.cc
+
+** puntatori *****************************
+
+pointer.cc
+pointer1.cc
+pointer2.cc
+pointer3.cc 
+
+EX0606.cc reference to an object pointed by a pointer:
+          un riferimento non "segue il puntatore"
+EX0701.cc [DDD]
+
+punt-a_void.cc // puntatori a void (cenni)
+
+** puntatori a costanti e costanti puntatori  
+punt_a_cost.cc       puntatori a costanti
+const_punt.cc        costanti puntatori
+const_punt_const.cc  costante puntatore a costante
+
+------------------------ solo se fai prima funzioni ----------
+** passaggio parametri per puntatore
+sezione 9, pagina 161 slides
+
+pass_punt.cc
+
+iva.cc  passaggio per riferimento
+iva2.cc passaggio per puntatore
+
+paperino.cc   passaggio per riferimento
+paperino2.cc  passaggio per puntatore
+
+** restituzione di un riferimento 
+
+EX0607.cc
+EX0608.cc
+

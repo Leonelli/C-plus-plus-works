@@ -1,0 +1,19 @@
+#ifndef TREE_H 
+#define TREE_H 
+
+#include "persona.h"
+
+struct nodo 
+{  
+  persona * p;  
+  nodo *left;  
+  nodo *right;
+};
+
+void init(nodo *&);
+nodo * inserisci(nodo *,persona *);
+nodo * cerca (nodo * ,char * );
+void stampa_ordinata(nodo *);
+nodo * modifica_indirizzo (nodo *,char *,char *);
+
+#endif

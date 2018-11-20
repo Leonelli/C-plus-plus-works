@@ -1,0 +1,69 @@
+
+queue.cc,299
+static const int dim 5,92
+static int head,6,118
+static int head, tail,6,118
+static int head, tail, elem[elem6,118
+static int next(8,153
+void init(13,210
+static bool emptyp(18,243
+static bool fullp(23,293
+retval enqueue 28,347
+retval first(41,505
+retval dequeue(53,640
+void print 65,773
+
+queue_main.cc,15
+int main 5,61
+
+queue_main_nocomment.cc,15
+int main 5,61
+
+reverse_main.cc,15
+int main 5,61
+
+stack.cc,232
+static const int dim 3,20
+static int indice,5,49
+static int indice, elem[elem5,49
+static bool emptyp 7,80
+static bool fullp 12,129
+void init 17,180
+retval top 22,212
+retval push 34,347
+retval pop 46,486
+void print(58,611
+
+stack_main.cc,15
+int main 5,61
+
+stack_main_nocomment.cc,15
+int main 5,61
+
+struct_queue.cc,177
+static int next(3,27
+void init(8,84
+static bool emptyp(13,130
+static bool fullp(18,199
+retval enqueue 23,272
+retval first(36,449
+retval dequeue(48,605
+void print 61,753
+
+struct_queue_main.cc,15
+int main 6,69
+
+struct_reverse_main.cc,15
+int main 5,68
+
+struct_stack.cc,144
+static bool emptyp 3,27
+static bool fullp 8,93
+void init 13,161
+retval top 18,204
+retval push 30,361
+retval pop 43,530
+void print(55,667
+
+struct_stack_main.cc,15
+int main 5,68

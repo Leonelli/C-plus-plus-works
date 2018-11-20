@@ -1,0 +1,2099 @@
+
+AGENDA_DOPPIA/doubletree.cc,184
+void init(9,125
+void inserisci(14,194
+void stampa_ordinata_nome(19,312
+void stampa_ordinata_cognome(23,382
+persona * ricerca_per_nome(27,455
+persona * ricerca_per_cognome(35,608
+
+AGENDA_DOPPIA/main.cc,16
+int main 8,106
+
+AGENDA_DOPPIA/persona.cc,89
+persona * crea_persona(3,22
+persona * leggi_persona(14,300
+void stampa_persona(36,656
+
+AGENDA_DOPPIA/tree.cc,248
+void init_tree 8,108
+tree  inserisci_cognome(12,153
+tree  inserisci_nome(26,558
+tree  cerca_cognome 40,934
+tree  cerca_nome 49,1237
+tree  modifica_indirizzo_cognome 58,1504
+tree  modifica_indirizzo_nome 67,1730
+void stampa_ordinata(77,1946
+
+AGENDA/main.cc,15
+int main 7,82
+
+AGENDA/persona.cc,89
+persona * crea_persona(3,22
+persona * leggi_persona(14,300
+void stampa_persona(36,656
+
+AGENDA/tree.cc,124
+void init(9,110
+tree  inserisci(13,149
+tree  cerca 28,531
+tree  modifica_indirizzo 37,810
+void stampa_ordinata(47,1022
+
+ALLOC_DINAMICA/aaaaa.cc,29
+int A[A4,42
+int main 6,73
+
+ALLOC_DINAMICA/aa.cc,37
+void nomemory(7,96
+int main 14,214
+
+ALLOC_DINAMICA/err_restituzione_array2.cc,84
+const int dim 5,61
+void printarray 7,81
+int *times(times13,199
+int main 21,325
+
+ALLOC_DINAMICA/err_restituzione_array.cc,40
+int *times(times4,43
+int main 12,166
+
+ALLOC_DINAMICA/EX0612.cc,53
+int main(11,219
+void get(24,561
+void print(36,785
+
+ALLOC_DINAMICA/EX0612_err.cc,53
+int main(12,247
+void get(25,589
+void print(37,812
+
+ALLOC_DINAMICA/matrix2.cc,67
+void nomemory(7,83
+float ** alloc_matrix 15,200
+int main(28,381
+
+ALLOC_DINAMICA/matrix3.cc,67
+void nomemory(7,83
+float ** alloc_matrix 15,200
+int main(28,381
+
+ALLOC_DINAMICA/matrix4.cc,94
+void nomemory(7,83
+float ** alloc_matrix 14,198
+void delete_matrix 27,407
+int main(36,540
+
+ALLOC_DINAMICA/matrix.cc,169
+float ** read_matrix 4,45
+void print_matrix 24,426
+float ** sum 37,632
+float ** diff 52,916
+float ** product 67,1201
+float ** symmetric 84,1571
+int main(102,1836
+
+ALLOC_DINAMICA/matrix_pun.cc,70
+float ** read_matrix 4,45
+void print_matrix 23,450
+int main(38,674
+
+ALLOC_DINAMICA/matrix_typedef.cc,194
+typedef float ** matrix;4,45
+matrix  read_matrix 6,73
+void print_matrix 26,452
+matrix  sum 39,656
+matrix  diff 54,936
+matrix  product 69,1217
+matrix  symmetric 86,1583
+int main(104,1845
+
+ALLOC_DINAMICA/new1.cc,15
+int main 5,44
+
+ALLOC_DINAMICA/new2.cc,15
+int main 5,44
+
+ALLOC_DINAMICA/new3.cc,15
+int main 5,44
+
+ALLOC_DINAMICA/newdelete1.cc,15
+int main 5,44
+
+ALLOC_DINAMICA/newdelete2.cc,15
+int main 5,44
+
+ALLOC_DINAMICA/nonallocata_err.cc,15
+int main(4,42
+
+ALLOC_DINAMICA/PR0627.cc,56
+double* copy(7,165
+void print(15,290
+int main(23,397
+
+ALLOC_DINAMICA/prova2.cc,15
+int main 5,62
+
+ALLOC_DINAMICA/prova3_bis.cc,15
+int main 8,97
+
+ALLOC_DINAMICA/prova3.cc,15
+int main 8,97
+
+ALLOC_DINAMICA/prova3_err.cc,15
+int main 8,97
+
+ALLOC_DINAMICA/prova3_quater.cc,15
+int main 8,97
+
+ALLOC_DINAMICA/prova3_tris.cc,15
+int main 8,97
+
+ALLOC_DINAMICA/prova4.cc,37
+void nomemory(7,96
+int main 14,204
+
+ALLOC_DINAMICA/prova5.cc,15
+int main 4,43
+
+ALLOC_DINAMICA/prova.cc,15
+int main 4,43
+
+ALLOC_DINAMICA/restituzione_array.cc,54
+int v[v4,43
+int *times(times6,80
+int main 14,197
+
+ARRAY/concatena_array.cc,196
+const int size 4,42
+double a[a10,225
+double a[size],b[b10,225
+double a[size],b[size],c[c10,225
+int main(12,260
+void leggiArray(23,400
+void stampaArray(34,572
+void concatenaArray(40,702
+
+ARRAY/errata4.cc,16
+int main(8,165
+
+ARRAY/EX0501.cc,16
+int main(8,165
+
+ARRAY/EX0502.cc,16
+int main(8,165
+
+ARRAY/EX0502_errata2.cc,16
+int main(8,165
+
+ARRAY/EX0502_errata3.cc,16
+int main(8,165
+
+ARRAY/EX0502_errata.cc,16
+int main(8,165
+
+ARRAY/EX0502_mia.cc,16
+int main(8,165
+
+ARRAY/EX0503_bis.cc,17
+int main(10,202
+
+ARRAY/EX0503.cc,16
+int main(8,165
+
+ARRAY/EX0503_errato.cc,17
+int main(10,202
+
+ARRAY/EX0503_err.cc,16
+int main(8,165
+
+ARRAY/EX0504.cc,16
+int main(8,165
+
+ARRAY/EX0505.cc,16
+int main(8,165
+
+ARRAY/EX0506.cc,85
+const int size 8,165
+int main(13,254
+void getArray(23,409
+void printArray(34,604
+
+ARRAY/EX0506_const.cc,86
+const int size 10,197
+int main(15,292
+void getArray(25,447
+void printArray(36,641
+
+ARRAY/EX0507.cc,60
+double sum(10,234
+void printArray(18,344
+int main 24,467
+
+ARRAY/EX0507_check.cc,60
+double sum(10,234
+void printArray(18,344
+int main 24,467
+
+ARRAY_PUNT/aa.cc,128
+int main(17,289
+void inizializza(33,524
+int tiradado(39,597
+int tiradadi(46,660
+void haivinto(54,769
+void haiperso(59,818
+
+ARRAY_PUNT/address_2.cc,15
+int main(4,42
+
+ARRAY_PUNT/address_3.cc,15
+int main(4,42
+
+ARRAY_PUNT/aritmetica_punt.cc,15
+int main 5,43
+
+ARRAY_PUNT/array_punt.cc,95
+void print_array(5,43
+void print_pvalue(14,193
+void print_p1p2_wait(19,282
+int main 29,488
+
+ARRAY_PUNT/array_punt_nocomment.cc,15
+int main 5,43
+
+ARRAY_PUNT/associativita.cc,15
+int main 5,43
+
+ARRAY_PUNT/concatena_array1.cc,196
+const int size 5,43
+double a[a11,226
+double a[size],b[b11,226
+double a[size],b[size],c[c11,226
+int main(13,261
+void leggiArray(24,404
+void stampaArray(35,576
+void concatenaArray(41,706
+
+ARRAY_PUNT/concatena_array2.cc,196
+const int size 5,43
+double a[a11,226
+double a[size],b[b11,226
+double a[size],b[size],c[c11,226
+int main(13,261
+void leggiArray(24,404
+void stampaArray(35,578
+void concatenaArray(41,710
+
+ARRAY_PUNT/concatena_array.cc,196
+const int size 5,43
+double a[a11,226
+double a[size],b[b11,226
+double a[size],b[size],c[c11,226
+int main(13,261
+void leggiArray(24,404
+void stampaArray(35,576
+void concatenaArray(41,706
+
+ARRAY_PUNT/err_restituzione_array1.cc,40
+int *times(times4,42
+int main 12,165
+
+ARRAY_PUNT/err_restituzione_array2.cc,84
+const int dim 5,61
+void printarray 7,82
+int *times(times13,200
+int main 21,326
+
+ARRAY_PUNT/err_restituzione_array.cc,40
+int *times(times4,42
+int main 12,165
+
+ARRAY_PUNT/EX0609.cc,16
+int main(9,166
+
+ARRAY_PUNT/EX0610.cc,16
+int main(9,167
+
+ARRAY_PUNT/EX0611_bug.cc,36
+short* loc(11,203
+int main(26,517
+
+ARRAY_PUNT/EX0611.cc,36
+short* loc(10,212
+int main(24,490
+
+ARRAY_PUNT/prova.cc,33
+int istrue(4,42
+int main 10,79
+
+ARRAY_PUNT/punt_vett1.cc,15
+int main 4,42
+
+ARRAY_PUNT/punt_vett.cc,15
+int main 5,43
+
+ARRAY_PUNT/ruota_maxritardo.cc,93
+int ritardi[ritardi7,117
+int *ruota_maxritardo ruota_maxritardo23,2901
+int main 35,3175
+
+ARRAY/somma_array.cc,202
+const int size 8,165
+   double a[a14,330
+   double a[size],b[b14,330
+   double a[size],b[size],c[c14,330
+int main(16,366
+void leggiArray(32,594
+void stampaArray(43,765
+void sommaArray(49,895
+
+ARRAY/template.cc,88
+const int size 8,165
+int main(13,257
+void leggiArray(22,356
+void stampaArray(33,527
+
+CALC_RPN/calcolatore_rpn.cc,22
+int calcolatore 6,41
+
+CALC_RPN/entry.cc,158
+static bool isdouble(3,20
+int operatorp 8,110
+retval read_entry 14,178
+static void print_operator(59,965
+void print_entry 81,1265
+entry calcola(90,1391
+
+CALC_RPN/main.cc,15
+int main 7,70
+
+CALC_RPN/stack.cc,239
+static const int dim 4,39
+static int indice;5,67
+entry elem[elem6,86
+static bool emptyp 8,104
+static bool fullp 13,160
+int length(18,218
+void init 23,254
+retval top 28,286
+retval push 40,423
+retval pop 52,572
+void print(64,697
+
+CALC_STD/calcola_main.cc,15
+int main(7,86
+
+CALC_STD/entry.cc,245
+bool operatorp 4,38
+bool openp 9,106
+bool closep 14,166
+bool nump 19,228
+bool namep 24,286
+static bool isdouble(29,346
+retval read_entry 34,436
+static void print_operator(78,1150
+void print_entry 99,1434
+double apply_operator(120,1726
+
+CALC_STD/expression.cc,133
+double evaluate_expression(8,87
+expression compose_expression 30,569
+retval read_expression 47,945
+void print_expression(76,1525
+
+CALC_STD/main.cc,15
+int main(7,86
+
+CODA_PRIORITA/message.cc,51
+void read_message(3,22
+void print_message(11,147
+
+CODA_PRIORITA/prio_queue.cc,141
+void priority_queue_init(3,25
+retval priority_queue_enqueue(12,160
+retval priority_queue_dequeue(26,422
+void priority_queue_print 36,663
+
+CODA_PRIORITA/prio_queue_main.cc,16
+int main(9,115
+
+CODA_PRIORITA/struct_queue.cc,143
+static int next(4,48
+void init(9,105
+bool emptyp(14,151
+bool fullp(19,220
+retval enqueue 24,293
+retval dequeue(33,433
+void print 42,574
+
+ESEMPI_BASE/assegnazione.cc,15
+int main 4,42
+
+ESEMPI_BASE/assegnazione_errori.cc,15
+int main 4,42
+
+ESEMPI_BASE/booleano_bool.cc,15
+int main 4,42
+
+ESEMPI_BASE/booleano.cc,15
+int main 4,42
+
+ESEMPI_BASE/char.cc,15
+int main 4,42
+
+ESEMPI_BASE/ciao2.cc,15
+int main 4,65
+
+ESEMPI_BASE/ciao3.cc,15
+int main 4,65
+
+ESEMPI_BASE/ciao.cc,15
+int main 4,65
+
+ESEMPI_BASE/conversione2.cc,15
+int main 4,43
+
+ESEMPI_BASE/conversione3.cc,15
+int main 4,43
+
+ESEMPI_BASE/conversione4.cc,63
+float cel2fahre 5,90
+float fahre2cel 11,201
+int main 16,269
+
+ESEMPI_BASE/conversione5.cc,15
+int main 6,68
+
+ESEMPI_BASE/conversione.cc,15
+int main 4,65
+
+ESEMPI_BASE/conversioni_corr.cc,15
+int main 4,43
+
+ESEMPI_BASE/conversioni_err.cc,15
+int main 4,43
+
+ESEMPI_BASE/costanti.cc,15
+int main 4,42
+
+ESEMPI_BASE/damminumero.cc,15
+int main 4,65
+
+ESEMPI_BASE/enum.cc,678
+int main 4,42
+  enum Giorno 7,65
+  enum Giorno {LUN,Giorno::LUN7,65
+  enum Giorno {LUN,MAR,Giorno::MAR7,65
+  enum Giorno {LUN,MAR,MER,Giorno::MER7,65
+  enum Giorno {LUN,MAR,MER,GIO,Giorno::GIO7,65
+  enum Giorno {LUN,MAR,MER,GIO,VEN,Giorno::VEN7,65
+  enum Giorno {LUN,MAR,MER,GIO,VEN,SAB,Giorno::SAB7,65
+  enum Giorno {LUN,MAR,MER,GIO,VEN,SAB,DOM}Giorno::DOM7,65
+  enum boolean 12,198
+  enum boolean { FALSE,boolean::FALSE12,198
+  enum boolean { FALSE, TRUE}boolean::TRUE12,198
+  enum colore 17,285
+  enum colore {ROSSO=colore::ROSSO17,285
+  enum colore {ROSSO=10, GIALLO=colore::GIALLO17,285
+  enum colore {ROSSO=10, GIALLO=15, BLU=colore::BLU17,285
+
+ESEMPI_BASE/escape.cc,15
+int main 4,42
+
+ESEMPI_BASE/esempio_cin2.cc,15
+int main 4,43
+
+ESEMPI_BASE/esempio_cin.cc,15
+int main 4,43
+
+ESEMPI_BASE/esempio_cout.cc,15
+int main 4,42
+
+ESEMPI_BASE/esempio_fattoriale2.cc,15
+int main 6,98
+
+ESEMPI_BASE/esempio_fattoriale.cc,32
+int fact 5,93
+int main 14,178
+
+ESEMPI_BASE/fact.cc,15
+int fact 2,41
+
+ESEMPI_BASE/fahre_cel.cc,45
+float cel2fahre 2,47
+float fahre2cel 8,158
+
+ESEMPI_BASE/lettura_carattere.cc,15
+int main 4,42
+
+ESEMPI_BASE/lettura_numero.cc,15
+int main 4,42
+
+ESEMPI_BASE/op_assegnazione.cc,15
+int main 4,42
+
+ESEMPI_BASE/operatori_aritmetici.cc,15
+int main 4,42
+
+ESEMPI_BASE/operatori_bitwise.cc,15
+int main 4,42
+
+ESEMPI_BASE/operatori_int.cc,15
+int main 4,42
+
+ESEMPI_BASE/op_incremento.cc,15
+int main 4,42
+
+ESEMPI_BASE/rappr_numeri.cc,15
+int main 4,42
+
+ESEMPI_BASE/reali.cc,15
+int main 4,42
+
+ESEMPI_BASE/shortlong.cc,15
+int main 4,42
+
+ESEMPI_BASE/sizeof2.cc,15
+int main 4,42
+
+ESEMPI_BASE/sizeof.cc,15
+int main 4,42
+
+ESEMPI_BASE/template.cc,15
+int main 4,42
+
+ESEMPI_BASE/unsigned.cc,15
+int main 4,42
+
+ESEMPI_BASE/variabili2.cc,15
+int main 4,42
+
+ESEMPI_BASE/variabili3.cc,15
+int main 4,42
+
+ESEMPI_BASE/variabili.cc,15
+int main 4,42
+
+FUNCTIONS/bbb.cc,32
+int main(8,86
+int fact(20,262
+
+FUNCTIONS/ccc.cc,51
+int main(11,115
+int fact(25,336
+int comb(35,501
+
+FUNCTIONS/cipeciop.cc,50
+void cip(4,42
+void ciop(11,134
+int main 18,230
+
+FUNCTIONS/comb2.cc,83
+  int n,9,139
+  int n,k;9,139
+int main(11,151
+int fact(24,361
+int comb(32,478
+
+FUNCTIONS/comb.cc,80
+  int n,5,69
+  int n,k;5,69
+int fact(8,106
+int comb(17,270
+int main(26,423
+
+FUNCTIONS/conversione4bis.cc,63
+float cel2fahre 5,90
+float fahre2cel 11,203
+int main 16,273
+
+FUNCTIONS/conversione4.cc,63
+float cel2fahre 5,90
+float fahre2cel 11,201
+int main 16,269
+
+FUNCTIONS/ddd.cc,72
+  int  num;3,41
+  int fattoriale;4,53
+int fact(8,98
+int main(19,239
+
+FUNCTIONS/eee.cc,64
+int a,6,70
+int a, b;6,70
+int main(9,103
+void scambia(20,298
+
+FUNCTIONS/EX0404.cc,33
+int cube(9,207
+int main(15,283
+
+FUNCTIONS/EX0405.cc,32
+int max(9,214
+int main(15,281
+
+FUNCTIONS/EX0406.cc,33
+int main(11,222
+int max(22,388
+
+FUNCTIONS/EX0410.cc,40
+int main(10,197
+void printDate(20,343
+
+FUNCTIONS/EX0411.cc,48
+void printCharCategory(10,247
+int main(22,689
+
+FUNCTIONS/EX0412.cc,38
+int main(12,223
+Bool isPrime 21,370
+
+FUNCTIONS/EX0412_mod.cc,37
+int main(12,222
+int isPrime 21,369
+
+FUNCTIONS/EX0416.cc,31
+void f(8,166
+int main(10,209
+
+FUNCTIONS/EX0420.cc,61
+int x 10,250
+int main(12,296
+void f(25,671
+void g(31,826
+
+FUNCTIONS/EX0421.cc,68
+int main(14,240
+int max(21,352
+int max(27,458
+double max(34,600
+
+FUNCTIONS/EX0423.cc,34
+int main(10,226
+double p(20,484
+
+FUNCTIONS/fact1.cc,32
+int main(7,85
+int fact(19,261
+
+FUNCTIONS/fact2.cc,73
+  int  num;4,42
+  int fattoriale;5,54
+int fact(8,100
+int main(16,213
+
+FUNCTIONS/fact3.cc,32
+int fact(6,68
+int main(14,185
+
+FUNCTIONS/fact.cc,32
+int fact(6,68
+int main(15,164
+
+FUNCTIONS/fact_for.cc,15
+int main(6,68
+
+FUNCTIONS/fahre_cel.cc,45
+float cel2fahre 2,47
+float fahre2cel 8,158
+
+FUNCTIONS/iva.cc,41
+void aggiungi_iva(4,42
+int main 10,118
+
+FUNCTIONS/mcd.cc,60
+int n1,5,78
+int n1,n2;5,78
+int mcd(8,91
+int main 19,208
+
+FUNCTIONS/mylog10.cc,39
+double mylog10 7,122
+int main 13,198
+
+FUNCTIONS/mylog10_err.cc,39
+double mylog10 7,122
+int main 13,198
+
+FUNCTIONS/mymax.cc,52
+int mymax(7,133
+int mymin(16,213
+int main(24,292
+
+FUNCTIONS/paperino.cc,88
+int a,4,42
+int a,b;4,42
+void ziopaperone(6,52
+void paperino(12,111
+int main 20,203
+
+FUNCTIONS/pippo.cc,79
+int a,4,42
+int a,b;4,42
+void pippo(7,53
+void pluto(13,105
+int main 18,152
+
+FUNCTIONS/PR0419.cc,72
+const double pi 9,183
+void rectangularToPolar(11,225
+int main 32,563
+
+FUNCTIONS/PR0420.cc,97
+int main(22,385
+void initializeSeed(37,642
+int toss(43,714
+void win(52,867
+void lose(58,920
+
+FUNCTIONS/riferimento_err.cc,34
+double pippo 4,42
+int main(9,86
+
+FUNCTIONS/scambia2.cc,64
+int a,6,68
+int a, b;6,68
+int main(9,101
+void scambia(20,296
+
+FUNCTIONS/scambia.cc,69
+  int a,5,87
+  int a, b;5,87
+int main(10,129
+void scambia(21,324
+
+FUNCTIONS/tavola_logaritmi.cc,38
+const float MAX=6,79
+int main 8,103
+
+FUNCTIONS/tiradadi.cc,128
+int main(12,150
+void inizializza(35,591
+int tiradado(41,664
+int tiradadi(48,726
+void haivinto(56,835
+void haiperso(61,884
+
+FUNCTIONS/topolino.cc,83
+int a,4,42
+int a,b;4,42
+void minnie(6,52
+void topolino(13,123
+int main 19,194
+
+FUNCTIONS/usa_const.cc,34
+void prova 4,43
+int main(18,297
+
+FUNZIONI_RICORSIVE/array_rec1.cc,110
+int depth 4,43
+void printspaces(5,58
+double rec_array_sum(13,135
+double array_sum 35,521
+int main 44,726
+
+FUNZIONI_RICORSIVE/array_rec1_nocomment.cc,69
+double rec_array_sum(5,43
+double array_sum 19,273
+int main 26,391
+
+FUNZIONI_RICORSIVE/array_rec2.cc,110
+int depth 4,42
+void printspaces(6,58
+double rec_array_sum(13,134
+double array_sum 35,520
+int main 44,725
+
+FUNZIONI_RICORSIVE/array_rec2_nocomment.cc,69
+double rec_array_sum(5,43
+double array_sum 19,273
+int main 26,391
+
+FUNZIONI_RICORSIVE/array_rec3.cc,110
+int depth 4,42
+void printspaces(6,58
+double rec_array_sum(13,134
+double array_sum 38,580
+int main 47,785
+
+FUNZIONI_RICORSIVE/array_rec3_nocomment.cc,69
+double rec_array_sum(5,43
+double array_sum 22,332
+int main 29,450
+
+FUNZIONI_RICORSIVE/array_rec_nocomment3.cc,69
+double rec_array_sum(5,43
+double array_sum 22,332
+int main 29,450
+
+FUNZIONI_RICORSIVE/espressione.cc,81
+int valutaespressione(6,93
+int leggievalutaespressione 17,309
+int main 35,649
+
+FUNZIONI_RICORSIVE/fact.cc,73
+int depth 4,42
+void printspaces(6,58
+int fatt 12,133
+int main(32,375
+
+FUNZIONI_RICORSIVE/fact_nocomment.cc,32
+int fatt 4,42
+int main(15,157
+
+FUNZIONI_RICORSIVE/fibonacci.cc,71
+int depth 4,42
+void printspaces(6,58
+long f 12,133
+int main(32,370
+
+FUNZIONI_RICORSIVE/fibonacci_iterativa.cc,30
+long f 5,43
+int main(24,311
+
+FUNZIONI_RICORSIVE/fibonacci_nocomment.cc,30
+long f 5,43
+int main(17,158
+
+FUNZIONI_RICORSIVE/fibonacci_store.cc,120
+const int maxdim 4,42
+long stored[stored5,66
+int depth 7,93
+void printspaces(9,109
+long f 15,184
+int main(40,506
+
+FUNZIONI_RICORSIVE/fibonacci_store_nocomment.cc,78
+const int maxdim 4,42
+long stored[stored5,66
+long f 7,93
+int main(24,292
+
+IF_THEN_ELSE_SWITCH/aa.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/bb.cc,15
+int main(6,79
+
+IF_THEN_ELSE_SWITCH/ccc.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/conversione2.cc,15
+int main 4,43
+
+IF_THEN_ELSE_SWITCH/conversione.cc,15
+int main 4,65
+
+IF_THEN_ELSE_SWITCH/dangling_else2.cc,15
+int main 6,81
+
+IF_THEN_ELSE_SWITCH/dangling_else.cc,15
+int main 6,85
+
+IF_THEN_ELSE_SWITCH/ddd.cc,15
+int main(4,77
+
+IF_THEN_ELSE_SWITCH/divisibilita2.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/divisibilita.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/eee.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/eq_1grado2.cc,15
+int main(6,79
+
+IF_THEN_ELSE_SWITCH/eq_1grado3.cc,15
+int main(6,79
+
+IF_THEN_ELSE_SWITCH/eq_1grado.cc,15
+int main(6,79
+
+IF_THEN_ELSE_SWITCH/espressione_condizionale.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/fff.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/minimo2.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/minimo.cc,15
+int main 4,42
+
+IF_THEN_ELSE_SWITCH/simple_calc2.cc,15
+int main(3,41
+
+IF_THEN_ELSE_SWITCH/simple_calc.cc,15
+int main(3,41
+
+IF_THEN_ELSE_SWITCH/visibilita.cc,15
+int main 4,42
+
+IO_SU_FILES/appendifile.cc,15
+int main 6,80
+
+IO_SU_FILES/converti.cc,15
+int main 6,80
+
+IO_SU_FILES/copiafile.cc,15
+int main 6,80
+
+LOOPS/aaa.cc,16
+int main 7,110
+
+LOOPS/base.cc,15
+int main(4,46
+
+LOOPS/bbb.cc,16
+int main(8,164
+
+LOOPS/break_continue.cc,16
+int main(8,165
+
+LOOPS/break_for.cc,16
+int main(8,164
+
+LOOPS/break_while.cc,15
+int main(4,42
+
+LOOPS/continue.cc,15
+int main(4,42
+
+LOOPS/conversione2.cc,15
+int main 4,43
+
+LOOPS/conversione3_do.cc,15
+int main 4,43
+
+LOOPS/conversione3_while.cc,15
+int main 4,43
+
+LOOPS/conversione4.cc,63
+float cel2fahre 5,90
+float fahre2cel 11,201
+int main 16,269
+
+LOOPS/conversione5.cc,15
+int main 6,68
+
+LOOPS/conversione.cc,15
+int main 4,65
+
+LOOPS/divisibile.cc,15
+int main(4,42
+
+LOOPS/doublecontrol.cc,16
+int main(8,165
+
+LOOPS/doublefor.cc,16
+int main 7,110
+
+LOOPS/fact_for.cc,15
+int main(6,68
+
+LOOPS/fact_while.cc,15
+int main 4,42
+
+LOOPS/fahre_cel.cc,45
+float cel2fahre 2,47
+float fahre2cel 8,158
+
+LOOPS/minmax.cc,16
+int main(8,164
+
+LOOPS/nobreak_while.cc,15
+int main(4,42
+
+LOOPS/nocontinue.cc,15
+int main(4,42
+
+LOOPS/serie_for1_2init2.cc,16
+int main 9,167
+
+LOOPS/serie_for1_2init.cc,16
+int main 8,143
+
+LOOPS/serie_for1.cc,16
+int main 8,143
+
+LOOPS/serie_for1_err.cc,16
+int main 8,143
+
+LOOPS/serie_for.cc,16
+int main 7,120
+
+LOOPS/serie_while1.cc,16
+int main 8,143
+
+LOOPS/serie_while1_err.cc,16
+int main 8,143
+
+LOOPS/serie_while.cc,16
+int main 7,120
+
+LOOPS/sommainteri_do.cc,15
+int main 4,42
+
+LOOPS/sommainteri_while.cc,15
+int main 4,42
+
+LOOPS/stampaciao2.cc,15
+int main 4,42
+
+LOOPS/stampaciao.cc,15
+int main 4,42
+
+LOOPS/stampaciao_infloop.cc,15
+int main 4,42
+
+LOOPS/tuttiiloop.cc,15
+int main(4,42
+
+MATRICI/EX0517_1.cc,54
+int main(13,240
+void read(24,412
+void print(34,607
+
+MATRICI/EX0517_2.cc,54
+int main(13,240
+void read(21,330
+void print(31,525
+
+MATRICI/EX0517_3.cc,54
+int main(13,240
+void read(20,300
+void print(30,495
+
+MATRICI/EX0517_4.cc,54
+int main(13,240
+void read(22,388
+void print(32,583
+
+MATRICI/EX0517_5.cc,54
+int main(13,240
+void read(23,396
+void print(33,591
+
+MATRICI/EX0517.cc,54
+int main(12,221
+void read(20,287
+void print(30,482
+
+MATRICI/matrix1.cc,207
+const int Dim1 5,65
+const int Dim2 6,86
+const int Dim3 7,107
+float A[A9,130
+float B[B14,195
+float C[C19,285
+float min_matrix 21,309
+void product 33,532
+void print_matrix 46,842
+int main(57,1023
+
+MATRICI/matrix2.cc,188
+const int Dim 5,65
+float A[A7,88
+float B[B12,151
+float C[C17,239
+float min_matrix 19,261
+void product 30,477
+void print_matrix 45,815
+void read_matrix 56,1004
+int main(71,1286
+
+MATRICI/matrix3.cc,161
+const int Dim 5,65
+float A[A7,88
+float B[B12,151
+float C[C17,239
+float min_matrix 19,261
+void product 30,474
+void print_matrix 45,803
+int main(56,989
+
+MATRICI/matrix4.cc,161
+const int Dim 5,65
+float A[A7,88
+float B[B12,151
+float C[C17,239
+float min_matrix 19,261
+void product 30,471
+void print_matrix 45,800
+int main(56,986
+
+MATRICI/matrix_general.cc,258
+const int Dim 5,65
+float A[A16,575
+float B[B21,638
+float C[C26,726
+int main(29,750
+void read_matrix(59,1500
+float min_matrix 69,1750
+float max_matrix 80,1963
+void sum 91,2190
+void diff 102,2422
+void product 113,2658
+void print_matrix 126,2979
+
+MATRICI/prova.cc,33
+int istrue(4,43
+int main 10,80
+
+PROG_FILE_MULTIPLI/extern.cc,49
+int size 4,42
+int x;6,59
+void print_ciao(8,67
+
+PROG_FILE_MULTIPLI/extern_main.cc,17
+int main(10,104
+
+PROG_FILE_MULTIPLI/matrix.cc,145
+matrix  read_matrix 5,66
+void print_matrix 25,445
+matrix  sum 38,649
+matrix  diff 53,929
+matrix  product 68,1210
+matrix  symmetric 85,1576
+
+PROG_FILE_MULTIPLI/matrix_main.cc,15
+int main(7,70
+
+PROG_FILE_MULTIPLI/matrix_typedef.cc,194
+typedef float ** matrix;4,45
+matrix  read_matrix 6,73
+void print_matrix 26,452
+matrix  sum 39,656
+matrix  diff 54,936
+matrix  product 69,1217
+matrix  symmetric 86,1583
+int main(104,1845
+
+PROG_FILE_MULTIPLI/static.cc,32
+void inc(4,41
+int main(11,132
+
+RIF_PUNT/address_1.cc,15
+int main(4,42
+
+RIF_PUNT/address_2.cc,15
+int main(4,42
+
+RIF_PUNT/address_3.cc,15
+int main(4,42
+
+RIF_PUNT/const_punt.cc,15
+int main(6,77
+
+RIF_PUNT/const_punt_const.cc,15
+int main(6,87
+
+RIF_PUNT/EX0601.cc,16
+int main(8,165
+
+RIF_PUNT/EX0602.cc,16
+int main(8,165
+
+RIF_PUNT/EX0603.cc,16
+int main(8,165
+
+RIF_PUNT/EX0604.cc,12
+main(8,165
+
+RIF_PUNT/EX0605.cc,16
+int main(8,165
+
+RIF_PUNT/EX0606.cc,16
+int main(8,165
+
+RIF_PUNT/EX0607_bis.cc,33
+int& max(8,165
+int main(13,302
+
+RIF_PUNT/EX0607.cc,33
+int& max(8,165
+int main(13,302
+
+RIF_PUNT/EX0608.cc,59
+float v[v8,165
+float& component(11,179
+int main(16,236
+
+RIF_PUNT/EX0701.cc,16
+int main(8,165
+
+RIF_PUNT/iva2.cc,41
+void aggiungi_iva(4,42
+int main 10,122
+
+RIF_PUNT/iva.cc,41
+void aggiungi_iva(4,42
+int main 10,118
+
+RIF_PUNT/paperino2.cc,88
+int a,4,42
+int a,b;4,42
+void ziopaperone(6,52
+void paperino(12,121
+int main 20,227
+
+RIF_PUNT/paperino.cc,88
+int a,4,42
+int a,b;4,42
+void ziopaperone(6,52
+void paperino(12,111
+int main 20,203
+
+RIF_PUNT/pass_punt.cc,62
+int a,4,42
+int a,b;4,42
+void scambia 6,52
+int main 14,136
+
+RIF_PUNT/pointer1.cc,15
+int main(5,43
+
+RIF_PUNT/pointer2.cc,15
+int main(5,43
+
+RIF_PUNT/pointer.cc,15
+int main(4,42
+
+RIF_PUNT/punt_a_cost.cc,15
+int main(6,78
+
+RIF_PUNT/reference.cc,15
+int main(4,42
+
+SORT/binary_search.cc,52
+  int a[a4,42
+int main(9,177
+void search(24,467
+
+SORT/bubblesort.cc,81
+void swap 6,62
+void printarray(13,128
+void bubblesort 24,269
+int main 40,534
+
+SORT/bubblesort_nocomment.cc,81
+void swap 6,62
+void printarray(13,128
+void bubblesort 23,242
+int main 33,390
+
+SORT/bubblesort_opt.cc,185
+void swap 7,63
+void printarray(14,129
+void bubblesort 25,270
+  enum Bool 27,305
+  enum Bool  {FALSE,Bool::FALSE27,305
+  enum Bool  {FALSE,TRUE}Bool::TRUE27,305
+int main 45,625
+
+SORT/EX0511.cc,249
+int a[a10,198
+int a[] = {55, 22, 99, 66, 44, 88, 33, 77}, target,10,198
+int a[] = {55, 22, 99, 66, 44, 88, 33, 77}, target, found,10,198
+int a[] = {55, 22, 99, 66, 44, 88, 33, 77}, target, found, loc;10,198
+int main(14,338
+void search(29,621
+
+SORT/EX0512.cc,114
+float a[a16,318
+int main(18,331
+void print(29,434
+void leggiArray(39,596
+void sort(51,783
+void swap(59,934
+
+SORT/EX0513.cc,55
+  int a[a10,198
+int main(15,333
+void search(30,623
+
+SORT/linear_search.cc,240
+int a[a4,42
+int a[] = {55, 22, 99, 66, 44, 88, 33, 77}, target,4,42
+int a[] = {55, 22, 99, 66, 44, 88, 33, 77}, target, found,4,42
+int a[] = {55, 22, 99, 66, 44, 88, 33, 77}, target, found, loc;4,42
+int main(8,182
+void search(23,465
+
+SORT/merge.cc,111
+const int size 4,42
+int main(10,209
+void leggiArray(28,495
+void stampaArray(39,665
+void mergeArray(47,831
+
+SORT/quicksort.cc,150
+int depth 6,62
+void printspaces(8,78
+void swap 14,153
+void printarray(21,219
+void quicksort1(77,1239
+void quicksort 121,2008
+int main 128,2073
+
+SORT/quicksort_nocomment.cc,106
+void swap 8,64
+void printarray(15,130
+void quicksort1(51,810
+void quicksort 76,1251
+int main 81,1312
+
+SORT/template.cc,88
+const int size 8,165
+int main(13,257
+void leggiArray(22,356
+void stampaArray(33,527
+
+STACK_QUEUE_ARRAY.old/queue.cc,280
+static const int dim 3,20
+static int head,4,46
+static int head, tail,4,46
+static int head, tail, elem[elem4,46
+static int next(6,81
+void init(11,138
+static boolean emptyp(16,171
+static boolean fullp(21,234
+retval enqueue 26,301
+retval dequeue(39,459
+void print 52,619
+
+STACK_QUEUE_ARRAY.old/queue_main.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY.old/queue_main_nocomment.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY.old/reverse_main.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY.old/stack.cc,238
+static const int dim 3,20
+static int indice,5,49
+static int indice, elem[elem5,49
+static boolean emptyp 7,80
+static boolean fullp 12,142
+void init 17,206
+retval top 22,238
+retval push 34,373
+retval pop 46,512
+void print(58,637
+
+STACK_QUEUE_ARRAY.old/stack_main.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY.old/stack_main_nocomment.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY.old/struct_queue.cc,162
+static int next(3,27
+void init(8,84
+static boolean emptyp(13,130
+static boolean fullp(18,212
+retval enqueue 23,298
+retval dequeue(36,475
+void print 50,655
+
+STACK_QUEUE_ARRAY.old/struct_queue_main.cc,15
+int main 6,69
+
+STACK_QUEUE_ARRAY.old/struct_stack.cc,151
+static boolean emptyp 4,28
+static boolean fullp 9,107
+void init 14,188
+retval top 19,231
+retval push 31,388
+retval pop 43,543
+void print(55,680
+
+STACK_QUEUE_ARRAY.old/struct_stack_main.cc,15
+int main 5,68
+
+STACK_QUEUE_ARRAY/queue.cc,274
+static const int dim 3,20
+static int head,4,46
+static int head, tail,4,46
+static int head, tail, elem[elem4,46
+static int next(6,81
+void init(11,138
+static bool emptyp(16,171
+static bool fullp(21,221
+retval enqueue 26,275
+retval dequeue(39,433
+void print 52,593
+
+STACK_QUEUE_ARRAY/queue_main.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY/queue_main_nocomment.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY/reverse_main.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY/stack.cc,232
+static const int dim 3,20
+static int indice,5,49
+static int indice, elem[elem5,49
+static bool emptyp 7,80
+static bool fullp 12,129
+void init 17,180
+retval top 22,212
+retval push 34,347
+retval pop 46,486
+void print(58,611
+
+STACK_QUEUE_ARRAY/stack_main.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY/stack_main_nocomment.cc,15
+int main 5,61
+
+STACK_QUEUE_ARRAY/struct_queue.cc,156
+static int next(3,27
+void init(8,84
+static bool emptyp(13,130
+static bool fullp(18,199
+retval enqueue 23,272
+retval dequeue(36,449
+void print 50,629
+
+STACK_QUEUE_ARRAY/struct_queue_main.cc,15
+int main 6,69
+
+STACK_QUEUE_ARRAY/struct_stack.cc,144
+static bool emptyp 4,28
+static bool fullp 9,94
+void init 14,162
+retval top 19,205
+retval push 31,362
+retval pop 43,517
+void print(55,654
+
+STACK_QUEUE_ARRAY/struct_stack_main.cc,15
+int main 5,68
+
+STACK_QUEUE_PUNT.old/queue.cc,175
+struct node 5,61
+struct queue 10,101
+static queue Q;16,151
+static boolean emptyp 19,169
+void init(24,237
+retval enqueue(29,280
+retval dequeue(45,495
+void print(59,700
+
+STACK_QUEUE_PUNT.old/queue_main.cc,15
+int main 5,61
+
+STACK_QUEUE_PUNT.old/reverse_main.cc,15
+int main 5,61
+
+STACK_QUEUE_PUNT.old/stack.cc,181
+struct nodo{nodo6,62
+static nodo *stack;stack11,104
+static boolean emptyp 13,125
+void init(17,191
+retval top 21,224
+retval push 28,313
+retval pop 37,457
+void print 47,655
+
+STACK_QUEUE_PUNT.old/stack_main.cc,15
+int main 5,61
+
+STACK_QUEUE_PUNT.old/struct_queue.cc,111
+static boolean emptyp 7,70
+void init(12,153
+retval enqueue(20,347
+retval dequeue(34,540
+void print(52,806
+
+STACK_QUEUE_PUNT.old/struct_queue_main.cc,15
+int main 6,69
+
+STACK_QUEUE_PUNT.old/struct_stack.cc,123
+static boolean emptyp 7,70
+void init(11,147
+retval top 15,185
+retval push 29,469
+retval pop 38,634
+void print 51,882
+
+STACK_QUEUE_PUNT.old/struct_stack_main.cc,15
+int main 5,68
+
+STACK_QUEUE_PUNT/queue.cc,172
+struct node 5,61
+struct queue 10,101
+static queue Q;16,151
+static bool emptyp 19,169
+void init(24,231
+retval enqueue(29,274
+retval dequeue(45,489
+void print(59,694
+
+STACK_QUEUE_PUNT/queue_main.cc,15
+int main 5,61
+
+STACK_QUEUE_PUNT/reverse_main.cc,15
+int main 5,61
+
+STACK_QUEUE_PUNT/stack.cc,178
+struct nodo{nodo6,62
+static nodo *stack;stack11,104
+static bool emptyp 13,125
+void init(17,185
+retval top 21,218
+retval push 28,307
+retval pop 37,451
+void print 47,649
+
+STACK_QUEUE_PUNT/stack_main.cc,15
+int main 5,61
+
+STACK_QUEUE_PUNT/struct_queue.cc,108
+static bool emptyp 7,70
+void init(12,147
+retval enqueue(20,341
+retval dequeue(34,534
+void print(52,800
+
+STACK_QUEUE_PUNT/struct_queue_main.cc,15
+int main 6,69
+
+STACK_QUEUE_PUNT/struct_stack.cc,120
+static bool emptyp 7,70
+void init(11,141
+retval top 15,179
+retval push 29,463
+retval pop 38,628
+void print 51,876
+
+STACK_QUEUE_PUNT/struct_stack_main.cc,15
+int main 5,68
+
+STRINGS/aaa.cc,41
+  char line[line8,165
+int main(10,183
+
+STRINGS/argcargv.cc,15
+int main 6,45
+
+STRINGS/EX0702.cc,16
+int main(8,165
+
+STRINGS/EX0703.cc,17
+int main(10,200
+
+STRINGS/EX0704.cc,16
+int main(8,165
+
+STRINGS/EX0706.cc,16
+int main(8,165
+
+STRINGS/EX0707.cc,16
+int main(9,183
+
+STRINGS/EX0710.cc,17
+int main(10,201
+
+STRINGS/EX0712_bis.cc,16
+int main(8,166
+
+STRINGS/EX0712.cc,16
+int main(8,166
+
+STRINGS/EX0713.cc,16
+int main(9,185
+
+STRINGS/EX0714.cc,16
+int main(9,185
+
+STRINGS/EX0715.cc,16
+int main(9,185
+
+STRINGS/EX0716.cc,17
+int main(10,229
+
+STRINGS/EX0717_catastrophic.cc,17
+int main(10,228
+
+STRINGS/EX0717.cc,17
+int main(10,228
+
+STRINGS/EX0717_correct.cc,17
+int main(10,228
+
+STRINGS/EX0718.cc,17
+int main(10,229
+
+STRINGS/iva1.cc,41
+void aggiungi_iva(5,61
+int main 10,136
+
+STRINGS/iva.cc,41
+void aggiungi_iva(4,42
+int main 10,118
+
+STRINGS/remove_blanks.cc,113
+const int dim 6,80
+char line[line8,101
+char lineout[lineout9,117
+int remove_blanks(11,137
+int main(25,338
+
+STRINGS/rimuovi_blanks.cc,108
+const int dim 5,61
+  char line[line6,82
+  char * nline;7,100
+int remove_blanks(10,118
+int main(24,364
+
+STRINGS/soluzione.cc,72
+const int nchar 5,61
+int occurrences[occurrences6,84
+int main(9,115
+
+STRUCT/persone2.cc,681
+const int NmaxPers 5,65
+const int NmaxNome 6,91
+const int NmaxCognome 7,117
+struct address 9,148
+struct persona 17,270
+struct gruppo 24,405
+int main 54,1171
+void leggi_indirizzo 94,2251
+void stampa_indirizzo 108,2568
+void leggi_nome 118,2835
+void stampa_nome 124,2920
+void leggi_cognome 129,2992
+void stampa_cognome 135,3083
+void leggi_persona(141,3163
+void stampa_persona(148,3293
+void inserisci_persona(155,3427
+void leggieinserisci_persona(163,3588
+void inizializza_gruppo(170,3704
+void stampa_gruppo(175,3763
+void stampa_persone(183,3952
+void swap 192,4137
+void ordina_per_cognome(199,4275
+int cerca_per_cognome(211,4568
+int cerca_per_cognome1(216,4688
+
+STRUCT/persone3.cc,814
+const int NmaxPers 5,65
+const int NmaxNome 6,91
+const int NmaxCognome 7,117
+struct address 9,148
+struct persona 17,270
+struct gruppo 23,373
+int main 54,1358
+void leggi_indirizzo 109,3003
+void stampa_indirizzo 123,3320
+void leggi_nome 133,3585
+void stampa_nome 139,3670
+void leggi_cognome 144,3742
+void stampa_cognome 150,3833
+void leggi_persona(155,3911
+void stampa_persona(162,4041
+void inizializza_gruppo 169,4173
+void inserisci_persona_gruppo 174,4233
+void stampa_gruppo_per_nome 186,4500
+void stampa_gruppo_per_cognome 191,4583
+void stampa_persone(197,4674
+void swap 205,4798
+void ordina_per_nome(212,4933
+void ordina_per_cognome(224,5185
+persona * cerca_per_nome(234,5403
+persona * cerca_per_nome1(240,5557
+persona * cerca_per_cognome(255,5932
+persona * cerca_per_cognome1(263,6108
+
+STRUCT/persone.cc,651
+const int NmaxPers 5,65
+const int NmaxNome 6,91
+const int NmaxCognome 7,117
+struct address 9,148
+struct persona 17,270
+struct gruppo 23,373
+int main 52,1133
+void leggi_indirizzo 91,2196
+void stampa_indirizzo 105,2513
+void leggi_nome 115,2780
+void stampa_nome 121,2865
+void leggi_cognome 126,2937
+void stampa_cognome 132,3028
+void leggi_persona(137,3106
+void stampa_persona(144,3236
+void inserisci_persona(151,3370
+void leggieinserisci_persona(158,3492
+void inizializza_gruppo(165,3608
+void stampa_gruppo(170,3667
+void swap 178,3851
+void ordina_per_cognome(185,3985
+int cerca_per_cognome(196,4278
+int cerca_per_cognome1(201,4398
+
+STRUCT/prova.cc,80
+const int Nmax 5,61
+struct myarray 7,85
+double somma 12,137
+int main 21,272
+
+STRUCT/struct1.cc,65
+  struct complex 4,43
+void print_complex 6,81
+int main 14,191
+
+STRUCT/struct_array1.cc,38
+struct int_array 4,43
+int main 6,77
+
+STRUCT/struct_array.cc,38
+struct int_array 4,43
+int main 6,77
+
+STRUCT/struct_arraypunt.cc,38
+struct int_array 4,43
+int main 8,80
+
+STRUCT/struct.cc,65
+  struct complex 4,43
+void print_complex 6,81
+int main 14,191
+
+TREE_ARRAY/tree.cc,298
+static tree left(9,94
+static tree right(16,209
+static char & elem(23,326
+static int emptyp(27,395
+bool nullp(31,464
+static tree mknull(35,522
+static void print_spaces(41,596
+void init(50,715
+retval insert(57,842
+void print_ordered(75,1137
+void print_indented(83,1295
+tree cerca 97,1533
+
+TREE_ARRAY/tree_main.cc,15
+int main(7,62
+
+TREE/tree1.cc,112
+void init(6,67
+tree  insert(11,108
+tree  cerca 24,385
+void print_ordered(35,628
+void print_indented(43,776
+
+TREE/tree1_main.cc,15
+int main(6,62
+
+TREE/tree.cc,167
+static void print_spaces(7,90
+void init(15,207
+bool nullp(19,246
+retval insert(26,449
+tree  cerca 42,755
+void print_ordered(55,1028
+void print_indented(63,1185
+
+TREE/tree_main.cc,15
+int main(7,62
+
+AGENDA_DOPPIA/doubletree.h,51
+#define DOUBLETREE_H 2,22
+struct doubletree 9,87
+
+AGENDA_DOPPIA/persona.h,96
+#define PERSONA_H2,18
+using namespace std;4,37
+const int MAX_DIM 8,98
+struct persona 10,123
+
+AGENDA_DOPPIA/tree.h,158
+#define TREE_H 2,16
+enum preferenza 6,55
+enum preferenza { nome,6,55
+enum preferenza { nome, cognome 6,55
+typedef nodo * tree;10,105
+struct nodo 12,127
+
+AGENDA/persona.h,96
+#define PERSONA_H2,18
+using namespace std;4,37
+const int MAX_DIM 8,98
+struct persona 10,123
+
+AGENDA/tree.h,66
+#define TREE_H 2,16
+typedef nodo * tree;8,70
+struct nodo 10,92
+
+CALC_RPN/calcolatore_rpn.h,31
+#define CALCOLATORE_RPN_H2,26
+
+CALC_RPN/entry.h,471
+#define ENTRY_H2,16
+using namespace std;4,33
+const int MaxDim 13,152
+enum EntryType 15,176
+enum EntryType {OPERATOR,OPERATOR15,176
+enum EntryType {OPERATOR,NUM}NUM15,176
+enum Operator 16,207
+enum Operator {PLUS,PLUS16,207
+enum Operator {PLUS, MINUS,16,207
+enum Operator {PLUS, MINUS, TIMES,16,207
+enum Operator {PLUS, MINUS, TIMES, DIVIDE}DIVIDE16,207
+enum retval 17,251
+enum retval {FAIL,FAIL17,251
+enum retval {FAIL,OK}OK17,251
+struct entry 19,275
+
+CALC_RPN/stack.h,47
+#define STACK_H2,16
+using namespace std;4,33
+
+CALC_STD/entry.h,615
+#define ENTRY_H2,16
+using namespace std;4,33
+const int MaxDim 13,152
+enum EntryType 15,176
+enum EntryType {OPERATOR,OPERATOR15,176
+enum EntryType {OPERATOR,NUM,15,176
+enum EntryType {OPERATOR,NUM,NAME,15,176
+enum EntryType {OPERATOR,NUM,NAME,OPEN,15,176
+enum EntryType {OPERATOR,NUM,NAME,OPEN,CLOSE}CLOSE15,176
+enum Operator 16,223
+enum Operator {PLUS,PLUS16,223
+enum Operator {PLUS, MINUS,16,223
+enum Operator {PLUS, MINUS, TIMES,16,223
+enum Operator {PLUS, MINUS, TIMES, DIVIDE}DIVIDE16,223
+enum retval 18,268
+enum retval {FAIL,FAIL18,268
+enum retval {FAIL,OK}OK18,268
+struct entry 20,292
+
+CALC_STD/expression.h,128
+#define EXPRESSION_H2,21
+using namespace std;4,43
+typedef node_expression * expression;14,186
+struct node_expression 16,225
+
+CODA_PRIORITA/message.h,99
+#define MESSAGE_H2,18
+using namespace std;4,37
+const int MaxInfoDim 8,80
+struct message 10,109
+
+CODA_PRIORITA/prio_queue.h,84
+#define PRIO_QUEUE_H2,21
+const int MaxPriority 7,91
+struct priority_queue 12,176
+
+CODA_PRIORITA/struct_queue.h,174
+#define QUEUE_H3,17
+using namespace std;5,34
+static const int dim 10,98
+struct queue 12,127
+enum retval 18,188
+enum retval { FAIL,18,188
+enum retval { FAIL, OK 18,188
+
+MATRICI/matrix.h,46
+static int Dim 11,494
+#define _MATRIX13,516
+
+PROG_FILE_MULTIPLI/matrix.h,78
+#define MATRIX_H2,18
+using namespace std;4,38
+typedef float ** matrix;7,83
+
+STACK_QUEUE_ARRAY.old/queue.h,207
+#define QUEUE_H2,16
+using namespace std;6,87
+enum retval 9,129
+enum retval { FAIL,9,129
+enum retval { FAIL, OK 9,129
+enum boolean 10,155
+enum boolean { FALSE,10,155
+enum boolean { FALSE, TRUE 10,155
+
+STACK_QUEUE_ARRAY.old/stack.h,211
+#define STACK_H2,16
+using namespace std;4,33
+enum retval 7,75
+enum retval {FAIL,FAIL7,75
+enum retval {FAIL,OK}OK7,75
+enum boolean 8,98
+enum boolean {FALSE,FALSE8,98
+enum boolean {FALSE,TRUE}TRUE8,98
+
+STACK_QUEUE_ARRAY.old/struct_queue.h,267
+#define STRUCT_QUEUE_H2,23
+using namespace std;6,101
+static const int dim 9,143
+struct queue 11,172
+enum retval 17,227
+enum retval { FAIL,17,227
+enum retval { FAIL, OK 17,227
+enum boolean 18,253
+enum boolean { FALSE,18,253
+enum boolean { FALSE, TRUE 18,253
+
+STACK_QUEUE_ARRAY.old/struct_stack.h,271
+#define STRUCT_STACK_H2,23
+using namespace std;4,47
+enum retval 7,89
+enum retval {FAIL,FAIL7,89
+enum retval {FAIL,OK}OK7,89
+enum boolean 8,112
+enum boolean {FALSE,FALSE8,112
+enum boolean {FALSE,TRUE}TRUE8,112
+static const int dim 10,140
+struct stack 12,169
+
+STACK_QUEUE_ARRAY/queue.h,122
+#define QUEUE_H2,16
+using namespace std;6,87
+enum retval 9,129
+enum retval { FAIL,9,129
+enum retval { FAIL, OK 9,129
+
+STACK_QUEUE_ARRAY/stack.h,124
+#define STACK_H2,16
+using namespace std;4,33
+enum retval 7,75
+enum retval {FAIL,FAIL7,75
+enum retval {FAIL,OK}OK7,75
+
+STACK_QUEUE_ARRAY/struct_queue.h,182
+#define STRUCT_QUEUE_H2,23
+using namespace std;6,101
+static const int dim 9,143
+struct queue 11,172
+enum retval 17,227
+enum retval { FAIL,17,227
+enum retval { FAIL, OK 17,227
+
+STACK_QUEUE_ARRAY/struct_stack.h,180
+#define STRUCT_STACK_H2,23
+using namespace std;4,47
+enum retval 7,89
+enum retval {FAIL,FAIL7,89
+enum retval {FAIL,OK}OK7,89
+static const int dim 9,113
+struct stack 11,142
+
+STACK_QUEUE_PUNT.old/queue.h,207
+#define QUEUE_H2,16
+using namespace std;6,87
+enum retval 9,129
+enum retval { FAIL,9,129
+enum retval { FAIL, OK 9,129
+enum boolean 10,155
+enum boolean { FALSE,10,155
+enum boolean { FALSE, TRUE 10,155
+
+STACK_QUEUE_PUNT.old/stack.h,211
+#define STACK_H2,16
+using namespace std;4,33
+enum retval 7,75
+enum retval {FAIL,FAIL7,75
+enum retval {FAIL,OK}OK7,75
+enum boolean 8,98
+enum boolean {FALSE,FALSE8,98
+enum boolean {FALSE,TRUE}TRUE8,98
+
+STACK_QUEUE_PUNT.old/struct_queue.h,258
+#define STRUCT_QUEUE_H2,23
+using namespace std;6,102
+struct node 9,144
+struct queue 14,184
+enum retval 20,234
+enum retval { FAIL,20,234
+enum retval { FAIL, OK 20,234
+enum boolean 21,260
+enum boolean { FALSE,21,260
+enum boolean { FALSE, TRUE 21,260
+
+STACK_QUEUE_PUNT.old/struct_stack.h,275
+#define STRUCT_STACK_H2,23
+using namespace std;4,47
+enum retval 8,90
+enum retval {FAIL,FAIL8,90
+enum retval {FAIL,OK}OK8,90
+enum boolean 9,113
+enum boolean {FALSE,FALSE9,113
+enum boolean {FALSE,TRUE}TRUE9,113
+struct nodo{nodo11,141
+typedef nodo * stack 16,183
+
+STACK_QUEUE_PUNT/queue.h,122
+#define QUEUE_H2,16
+using namespace std;6,87
+enum retval 9,129
+enum retval { FAIL,9,129
+enum retval { FAIL, OK 9,129
+
+STACK_QUEUE_PUNT/stack.h,124
+#define STACK_H2,16
+using namespace std;4,33
+enum retval 7,75
+enum retval {FAIL,FAIL7,75
+enum retval {FAIL,OK}OK7,75
+
+STACK_QUEUE_PUNT/struct_queue.h,173
+#define STRUCT_QUEUE_H2,23
+using namespace std;6,102
+struct node 9,144
+struct queue 14,184
+enum retval 20,234
+enum retval { FAIL,20,234
+enum retval { FAIL, OK 20,234
+
+STACK_QUEUE_PUNT/struct_stack.h,185
+#define STRUCT_STACK_H2,23
+using namespace std;4,47
+enum retval 8,90
+enum retval {FAIL,FAIL8,90
+enum retval {FAIL,OK}OK8,90
+struct nodo{nodo10,114
+typedef nodo * stack 15,156
+
+TREE_ARRAY/tree.h,140
+#define TREE_H 2,16
+enum retval 4,33
+enum retval {FAIL,FAIL4,33
+enum retval {FAIL,OK}OK4,33
+const int MAXSIZE 6,57
+struct tree 8,83
+
+TREE/tree1.h,65
+#define TREE_H 2,16
+typedef node * tree;6,47
+struct node 8,69
+
+TREE/tree.h,143
+#define TREE_H 2,16
+enum retval 4,33
+enum retval {FAIL,FAIL4,33
+enum retval {FAIL,OK}OK4,33
+typedef node * tree;8,71
+struct node 10,93
+
+LOOPS/fahre_cel.h,0
+
+FUNCTIONS/fahre_cel.h,0
+
+ESEMPI_BASE/fahre_cel.h,0
+
+ESEMPI_BASE/fact.h,0

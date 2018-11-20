@@ -1,0 +1,44 @@
+using namespace std;
+#include <iostream>
+
+int depth = 0;
+
+char * printspaces(int n) 
+{ 
+  int i;
+  char * s;
+  s = new char[3*n+1];
+  for (i=0;i<3*n;i++) 
+    s[i] = ' ';
+  s[3*n] = '\0';
+  return s;
+}
+
+int fatt (int n) 
+{
+  int res;
+  
+depth++;
+cout << printspaces(depth) << "> fact(" 
+     << n << ")\n";
+
+  if (n==0||n==1) 
+    res = 1;
+  else
+    res = n * fatt(n-1);
+
+cout << printspaces(depth) << "< " <<  res << endl;
+depth--;
+
+  return res;
+}
+
+int main() 
+{
+  int n;
+  cout << "n? ";
+  cin >> n;
+  cout << "fattoriale(" << n << ") = " << fatt(n) << endl;
+return 0;
+}
+
