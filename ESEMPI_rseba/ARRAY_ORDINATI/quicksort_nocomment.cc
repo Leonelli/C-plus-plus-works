@@ -4,14 +4,14 @@ using namespace std;
 
 const int MAXDIM = 100;
 
-void swap (int & a, int & b) 
+void swap (int & a, int & b)
 {
   int c = a;
   a = b;
   b = c;
 }
 
-void printarray(int v[],int min,int max) 
+void printarray(int v[],int min,int max)
 {
   int i;
   cout << "[";
@@ -25,7 +25,7 @@ void printarray(int v[],int min,int max)
 VERSIONE SULLE SLIDE:
 PICCOLO ERRORE: ESCE DAL RANGE NEL PRIMO "while"
 se inizialmente ordinato decrescentemente
-void quicksort1 (int v[],int primo,int ultimo) 
+void quicksort1 (int v[],int primo,int ultimo)
 {
 
   if (primo<ultimo) {
@@ -36,7 +36,7 @@ void quicksort1 (int v[],int primo,int ultimo)
     do {
       while (v[++p]<pivot); //incremento p finche' v[p]>=pivot
       while (v[--u]>pivot); //decremento q finche' v[q]<=pivot
-      if (p<u) 
+      if (p<u)
 	swap(v[p],v[u]);
     } while (p<u);
     swap(v[primo],v[u]);
@@ -55,11 +55,11 @@ void quicksort1(int v[], int primo, int ultimo) {
       int pivot = v[ultimo];
 
       do {
-         while ((p < u) && (v[p] <= pivot)) 
-	   p++;
+         while ((p < u) && (v[p] <= pivot))
+	        p++;
          while ((u > p) && (v[u] >= pivot))
-	   u--;
-         if (p < u) 
+	        u--;
+         if (p < u)
 	    swap(v[p],v[u]);
       } while (p < u);
 
@@ -67,20 +67,20 @@ void quicksort1(int v[], int primo, int ultimo) {
 
       quicksort1(v, primo, p-1);
       quicksort1(v, p+1, ultimo);
-   } 
+   }
 }
 
 
 
-void quicksort (int v[],int n) 
+void quicksort (int v[],int n)
 {
   quicksort1 (v,0,n-1);
 }
 
-int main () 
+int main ()
 {
   //  const int dim = 8;
-  int myarray[MAXDIM] = 
+  int myarray[MAXDIM] =
     {
 //       7,6,5,4,3,2,1
   10,3,9,1,5,17,6,41,20,37,2,8,23,0,11,19
@@ -89,12 +89,9 @@ int main ()
     };
 
   int dim = 16;
-   
+
   printarray(myarray,0,dim-1);
   cout << endl;
   quicksort(myarray,dim);
   printarray(myarray,0,dim-1);
 }
-
-  
-  
