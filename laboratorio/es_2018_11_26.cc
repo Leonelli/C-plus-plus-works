@@ -4,9 +4,9 @@ using namespace std;
 
 const int DIM = 5;
 
-bool confrontaArray(char[],char[]);
-void copiaArray(char[],char[]);
-void stampaArray(char a[]);
+bool confrontaArray(const char[],const char[]);
+void copiaArray(char dest[],const char source[]);
+void stampaArray(const char a[],const char b[]);
 
 
 int main(){
@@ -14,8 +14,7 @@ int main(){
   char b[DIM];
   bool uguali = true;
 
-  stampaArray(a);
-  stampaArray(b);
+  stampaArray(a,b);
 
   if (confrontaArray(a,b)) {
     cout << "Array uguali"<<endl;
@@ -25,10 +24,9 @@ int main(){
     cout << "Array diversi"<<endl;
   }
 
-  copiaArray(a,b);
+  copiaArray(b,a);
 
-  stampaArray(a);
-  stampaArray(b);
+  stampaArray(a,b);
 
   if (  confrontaArray(a,b)) {
     cout << "Array uguali"<<endl;
@@ -41,11 +39,11 @@ int main(){
 }
 
 
-bool confrontaArray(char a [] ,char b[] ){
+bool confrontaArray(const char a [] ,const char b[] ){
 
   bool risultato = true;
 
-  for (int i = 0; i < DIM; i++) {
+  for (int i = 0; i < DIM && risultato==true; i++) {
     if (a[i]!=b[i]) {
       return false;
     }
@@ -53,16 +51,17 @@ bool confrontaArray(char a [] ,char b[] ){
   return risultato;
 }
 
-void copiaArray(char a [],char b []){
+void copiaArray(char a [],const char b []){
 
   for (int i = 0; i < DIM; i++) {
-    b[i]=a[i];
+    a[i]=b[i];
   }
 
 }
 
-void stampaArray(char a[]){
+void stampaArray(const char a[], const char b[]){
   for (int i = 0; i < DIM; i++) {
     cout << "a [" << i << "] = "<< a[i] << endl;
+    cout << "b [" << i << "] = "<< b[i] << endl;
   }
 }
