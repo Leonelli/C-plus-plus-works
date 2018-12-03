@@ -24,7 +24,7 @@ void codifica(char t[], const char s[]){
     strcat(t,"");
   }
   else{
-    char tmp[2] = {caesar(s[0], '\0')};
+    char tmp[2] = {caesar(s[0]), '\0'};
     strcat(t, tmp);
     codifica(t,s+1);
   }
